@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Zero to ASIC</title>
-    <link>http://zerotoasic.com/posts/</link>
+    <link>http://www.zerotoasic.com/posts/</link>
     <description>Recent content in Posts on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 17:58:07 +0100</lastBuildDate><atom:link href="http://zerotoasic.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2020 17:58:07 +0100</lastBuildDate><atom:link href="http://www.zerotoasic.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://zerotoasic.com/posts/my-first-post/</link>
+      <link>http://www.zerotoasic.com/posts/my-first-post/</link>
       <pubDate>Wed, 11 Nov 2020 17:58:07 +0100</pubDate>
       
-      <guid>http://zerotoasic.com/posts/my-first-post/</guid>
+      <guid>http://www.zerotoasic.com/posts/my-first-post/</guid>
       <description>Some content here.</description>
     </item>
     
