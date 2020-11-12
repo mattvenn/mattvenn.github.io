@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="http://www.zerotoasic.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Multi Project Harness</title>
+      <link>http://www.zerotoasic.com/post/multi-project-harness/</link>
+      <pubDate>Thu, 12 Nov 2020 14:54:58 +0100</pubDate>
+      
+      <guid>http://www.zerotoasic.com/post/multi-project-harness/</guid>
+      <description>I&amp;rsquo;ve been working on the multi project harness. Normally in a multi project wafer you would have the entire space for your own design.
+The Google/Skywater Shuttle is a bit different. First of all, there is the Caravel harness, which even has its own datasheet
+For this course, I want to put all your designs together into that area, so we need to do some extra bits:
+ hold all the designs except 1 in reset connect all the inputs and outputs make sure the inputs and outputs don&amp;rsquo;t clash with each other connect important signals like clocks and make sure the tools know they are special  Then there will need to be a bit of firmware on the SoC that sets up the GPIOs for each design.</description>
+    </item>
+    
+    <item>
       <title>Hackaday #remoticon talk</title>
       <link>http://www.zerotoasic.com/post/remoticon-talk/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
