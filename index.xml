@@ -6,14 +6,42 @@
     <description>Recent content on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 17:58:07 +0100</lastBuildDate><atom:link href="http://www.zerotoasic.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://www.zerotoasic.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://www.zerotoasic.com/posts/my-first-post/</link>
-      <pubDate>Wed, 11 Nov 2020 17:58:07 +0100</pubDate>
+      <title>Hackaday #remoticon talk</title>
+      <link>http://www.zerotoasic.com/post/remoticon-talk/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.zerotoasic.com/posts/my-first-post/</guid>
-      <description>Some content here.</description>
+      <guid>http://www.zerotoasic.com/post/remoticon-talk/</guid>
+      <description>I recently presented a demo/presentation for Hackaday&amp;rsquo;s #remoticon.
+ talk on twitch slides from the talk</description>
+    </item>
+    
+    <item>
+      <title>What is an inverter?</title>
+      <link>http://www.zerotoasic.com/post/inverter/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.zerotoasic.com/post/inverter/</guid>
+      <description> some list some other list   </description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>http://www.zerotoasic.com/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.zerotoasic.com/resources/</guid>
+      <description> 0 to ASIC #remoticon talk on twitch slides from the talk FOSSi foundation dialup https://www.youtube.com/playlist?list=PLUg3wIOWD8yoZCg9XpFSgEgljx6MSdm9L Slack channels https://slack.skywater.tools/ PDK docs: https://skywater-pdk.readthedocs.io/en/latest/ Openlane: https://github.com/efabless/openlane Kunal’s udemy courses https://www.udemy.com/course/vlsi-academy-custom-layout/ Books: search ‘introduction to VLSI systems’ FPGA boards: TinyFPGA, icebreaker, WTFPGA course: https://github.com/esden/WTFpga https://github.com/mattvenn/remoticon-presentation-tools https://github.com/mattvenn/magic-inverter https://github.com/mattvenn/seven-segment-seconds  </description>
+    </item>
+    
+    <item>
+      <title>Sign up</title>
+      <link>http://www.zerotoasic.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.zerotoasic.com/contact/</guid>
+      <description>Express your interest in the Zero to ASIC course here!</description>
     </item>
     
   </channel>
