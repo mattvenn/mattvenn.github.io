@@ -30,12 +30,14 @@ For this course, I want to put all your designs together into that area, so we n
     </item>
     
     <item>
-      <title>What is an inverter?</title>
+      <title>Inverter speedrun</title>
       <link>http://www.zerotoasic.com/post/inverter/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>http://www.zerotoasic.com/post/inverter/</guid>
-      <description> some list some other list   </description>
+      <description>A standard cell is a building block that contains some basic digital or analogue functionality. For example an NAND gate, a flip-flop, an inverter. These blocks are then tiled together to make the final design.
+Since finding out about the Skywater PDK, I wanted to try drawing my own &amp;lsquo;standard cell&amp;rsquo; using the Skywater transistor models.
+An inverter is one of the simplest and even that was quite difficult! As you can see below it contains an N and P type MOSFET.</description>
     </item>
     
     <item>
