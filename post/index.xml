@@ -8,19 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://www.zerotoasic.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How Much Can We Fit on an ASIC?</title>
-      <link>https://www.zerotoasic.com/post/how-much-can-we-fit/</link>
-      <pubDate>Thu, 12 Nov 2020 20:00:11 +0100</pubDate>
-      
-      <guid>https://www.zerotoasic.com/post/how-much-can-we-fit/</guid>
-      <description>The Google / Skywater shuttle reserves about 10 square mm (10 million square microns) of space for your design.
-This comparison that Mohamed from efabless put together shows the various areas (and time to generate the GDS2 files) of some popular designs.
-We could fit in about 10 picorv32 RISCV cores!
-My designs I currently have 3 designs ready to add to the multi project harness:
-   Name Square microns How many would fit?</description>
-    </item>
-    
-    <item>
       <title>VGA clock</title>
       <link>https://www.zerotoasic.com/post/vga_clock/</link>
       <pubDate>Thu, 12 Nov 2020 19:13:04 +0100</pubDate>

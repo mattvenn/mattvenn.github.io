@@ -192,19 +192,6 @@ module counter (clk, rst, en, count); input clk, rst, en; output reg [3:0] count
     </item>
     
     <item>
-      <title>How Much Can We Fit on an ASIC?</title>
-      <link>https://www.zerotoasic.com/post/how-much-can-we-fit/</link>
-      <pubDate>Thu, 12 Nov 2020 20:00:11 +0100</pubDate>
-      
-      <guid>https://www.zerotoasic.com/post/how-much-can-we-fit/</guid>
-      <description>The Google / Skywater shuttle reserves about 10 square mm (10 million square microns) of space for your design.
-This comparison that Mohamed from efabless put together shows the various areas (and time to generate the GDS2 files) of some popular designs.
-We could fit in about 10 picorv32 RISCV cores!
-My designs I currently have 3 designs ready to add to the multi project harness:
-   Name Square microns How many would fit?</description>
-    </item>
-    
-    <item>
       <title>VGA clock</title>
       <link>https://www.zerotoasic.com/post/vga_clock/</link>
       <pubDate>Thu, 12 Nov 2020 19:13:04 +0100</pubDate>
@@ -287,7 +274,7 @@ In the OpenLane tool, at the end we have the LVS step. The netlist is extracted 
       
       <guid>https://www.zerotoasic.com/terminology/sta/</guid>
       <description>Static Timing Analysis helps us to understand how fast we can expect our chip to run.
-OpenLane uses a tool called OpenSTA It&amp;rsquo;s job is to analyse the &amp;lsquo;critical paths&amp;rsquo; in the design and then work out how long it will take those paths to propagate a signal.
+OpenLane uses a tool called OpenSTA Its job is to analyse the &amp;lsquo;critical paths&amp;rsquo; in the design and then work out how long it will take those paths to propagate a signal.
 After OpenLane finishes, we get a report from OpenSTA: reports/synthesis/opensta.min_max.rpt
 The required timing is set in the OpenLane config file. By default it&amp;rsquo;s 10ns, which means we are targetting a clock frequency of 100MHz.</description>
     </item>
