@@ -6,7 +6,51 @@
     <description>Recent content in Terminology on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 11:58:32 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 13:35:41 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CMOS</title>
+      <link>https://www.zerotoasic.com/terminology/cmos/</link>
+      <pubDate>Fri, 13 Nov 2020 13:35:41 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/cmos/</guid>
+      <description>https://en.wikipedia.org/wiki/CMOS:
+ Complementary Metal Oxide Semiconductor (CMOS) is a type of MOSFET fabrication process that uses complementary and symmetrical pairs of p-type and n-type MOSFETs to build logic functions.
+ It is low powered compared to NMOS.
+Here is a CMOS inverter showing the complementary N and P type MOSFETs.
+And here&amp;rsquo;s how it could be laid out using a tool like Magic</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://www.zerotoasic.com/terminology/process/</link>
+      <pubDate>Fri, 13 Nov 2020 13:27:42 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/process/</guid>
+      <description>node</description>
+    </item>
+    
+    <item>
+      <title>NMOS</title>
+      <link>https://www.zerotoasic.com/terminology/nmos/</link>
+      <pubDate>Fri, 13 Nov 2020 13:12:26 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/nmos/</guid>
+      <description>NMOS refers to building the standard cells we need for building our IC out of only N-type MOSFETs
+Heres how we can build an inverter from only N-type MOSFETS.
+   Input Output     0 1   1 0    If the input is low, the gate is not charged and current doesn&amp;rsquo;t flow through the MOSFET. The resistor pulls up the output to make it high.</description>
+    </item>
+    
+    <item>
+      <title>WLCSP</title>
+      <link>https://www.zerotoasic.com/terminology/wlcsp/</link>
+      <pubDate>Fri, 13 Nov 2020 13:03:31 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/wlcsp/</guid>
+      <description>This package is very small and cheap to produce. It also has benefits due to the lack of bond wires. Bond wires increase parasitic inductance, and can be a problem for high speed designs.
+The downside is that they are very tiny!
+The last 5 layers of the Skywater PDK define the layers necessary to build the WLCSP package.</description>
+    </item>
+    
     <item>
       <title>HDL</title>
       <link>https://www.zerotoasic.com/terminology/hdl/</link>
@@ -169,7 +213,9 @@ For reasons of speed and debugging, it makes sense to split up the data processi
       <pubDate>Thu, 12 Nov 2020 17:43:29 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/lvs/</guid>
-      <description></description>
+      <description>Layout vs Schematic is an important verification step.
+After the design has been finished and we have the GDS2 files that we can send to the foundry, we want to check that the design is the same as the input that was described by the HDL.
+In the OpenLane tool, at the end we have the LVS step. The netlist is extracted using Magic A tool called Netgen can compare this extracted netlist with the one we get after the synthesis step.</description>
     </item>
     
     <item>
@@ -182,12 +228,14 @@ For reasons of speed and debugging, it makes sense to split up the data processi
     </item>
     
     <item>
-      <title>Place_and_route</title>
+      <title>Place and Route</title>
       <link>https://www.zerotoasic.com/terminology/place_and_route/</link>
       <pubDate>Thu, 12 Nov 2020 17:43:12 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/place_and_route/</guid>
-      <description></description>
+      <description>Place and Route are 2 steps in the automated process of turning some HDL into GDS2 files. We will look at how OpenLane does these steps.
+Place Placement is
+Route </description>
     </item>
     
     <item>
@@ -196,7 +244,9 @@ For reasons of speed and debugging, it makes sense to split up the data processi
       <pubDate>Thu, 12 Nov 2020 17:43:01 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/synthesis/</guid>
-      <description></description>
+      <description>Synthesis is kind of analogous to the compiler used for sequential programming languages like C. It reads the HDL and creates a netlist.
+It is a very complex and detailed process. Until Claire Wolf wrote yosys, it was thought that only huge semiconducter companies had the resouces to write a synthesis tool.
+yosys is the Open Source tool that has been crucial in enabling the Open Source ASIC flow we have in OpenLane.</description>
     </item>
     
     <item>
@@ -267,14 +317,14 @@ We put our HDL in at one end, and out the other comes the GDS2 files that are th
     </item>
     
     <item>
-      <title>spice</title>
+      <title>SPICE</title>
       <link>https://www.zerotoasic.com/terminology/spice/</link>
       <pubDate>Thu, 12 Nov 2020 17:39:43 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/spice/</guid>
       <description>SPICE general-purpose, open-source analog electronic circuit simulator. It stands for Simulation Program with Integrated Circuit Emphasis. ngspice is a successor, and is easily installable on Linux. It&amp;rsquo;s the simulator I&amp;rsquo;ve used to explore the Skywater 130 PDK.
-Here&amp;rsquo;s an example spice simulation file that I used to simulate the inverter I drew. To find out more about that check this post.
-Inverter Simulation * this file edited to remove everything not in tt lib .</description>
+Here&amp;rsquo;s an example spice simulation file that I used to simulate the inverter I drew.
+Inverter Simulation * this file edited to remove everything not in tt lib .lib &amp;quot;./sky130_fd_pr/models/sky130.lib.spice&amp;quot; tt * instantiate the inverter Xinv Y A VPWR VGND VGND VPWR inverter .</description>
     </item>
     
     <item>

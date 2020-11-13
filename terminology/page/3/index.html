@@ -36,7 +36,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zerotoasic.com/terminology/" />
-<meta property="og:updated_time" content="2020-11-13T11:58:32+01:00" />
+<meta property="og:updated_time" content="2020-11-13T13:35:41+01:00" />
 <meta itemprop="name" content="Terminology">
 <meta itemprop="description" content="">
 <meta name="twitter:card" content="summary"/>
@@ -133,6 +133,77 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Terminology</span>
     <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/place_and_route/" class="link black dim">
+        Place and Route
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Place and Route are 2 steps in the automated process of turning some HDL into GDS2 files. We will look at how OpenLane does these steps.
+Place Placement is
+Route 
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/synthesis/" class="link black dim">
+        Synthesis
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Synthesis is kind of analogous to the compiler used for sequential programming languages like C. It reads the HDL and creates a netlist.
+It is a very complex and detailed process. Until Claire Wolf wrote yosys, it was thought that only huge semiconducter companies had the resouces to write a synthesis tool.
+yosys is the Open Source tool that has been crucial in enabling the Open Source ASIC flow we have in OpenLane.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/drc/" class="link black dim">
+        DRC
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      The Design Rule Check is part of the PDK. Both the Magic and OpenLane tools make use of it.
+It contains rules that check things like:
+ The gate of the MOSFET are the correct length Wires on the metal layers are not too narrow and not too close Check that MOSFET gates are protected if they have long connecting wires.  This last rule is my favourite.
+When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/gds2/" class="link black dim">
+        GDS2
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      GDSII/GDS2 is a binary file format that represents the layers needed to produce an ASIC.
+In the OpenLane flow, Magic is used to &lsquo;stream&rsquo; the final GDS2 files.
+We can use other programs or even software libraries to generate valid GDS2 files. Here I&rsquo;ve used gdspy to convert the Hackaday logo into GDS2.
+You can check the very simple program out here
+The Skywater PDK defines all the layers that we can use in the GDS2 files.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/maskset/" class="link black dim">
         Maskset
       </a>
@@ -200,13 +271,13 @@ We put our HDL in at one end, and out the other comes the GDS2 files that are th
     <span class="f6 db">Terminology</span>
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/spice/" class="link black dim">
-        spice
+        SPICE
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       SPICE general-purpose, open-source analog electronic circuit simulator. It stands for Simulation Program with Integrated Circuit Emphasis. ngspice is a successor, and is easily installable on Linux. It&rsquo;s the simulator I&rsquo;ve used to explore the Skywater 130 PDK.
-Here&rsquo;s an example spice simulation file that I used to simulate the inverter I drew. To find out more about that check this post.
-Inverter Simulation * this file edited to remove everything not in tt lib .
+Here&rsquo;s an example spice simulation file that I used to simulate the inverter I drew.
+Inverter Simulation * this file edited to remove everything not in tt lib .lib &quot;./sky130_fd_pr/models/sky130.lib.spice&quot; tt * instantiate the inverter Xinv Y A VPWR VGND VGND VPWR inverter .
     </div>
   </div>
 </div>
@@ -223,75 +294,6 @@ Inverter Simulation * this file edited to remove everything not in tt lib .
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       A MOSFET is a type of transistor we can use as a digital switch. The name stands for Metal Oxide Silicon Field Effect Transistor. The first MOSFET was made in 1959 by Mohamed M. Atalla &amp; Dawon Kahng.
  Easy to manufacture in volume Easy to change its size It is the basic building block of modern electronics  They are the most manufactured object worldwide: 1.3×10^22 of them have been made between 1960 and 2018 - Wikipedia
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/pdk/" class="link black dim">
-        PDK
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      The Process Design Kit is a library of all the specifications that describe a particular factories' particular chip fabrication process.
-In our case we have access to the Skywater factories 130 nanometer process, usually called sky130. This picture shows how the layers of the chip stack up to form the complete ASIC.
-This picture shows all the layers defined in the PDK that can be used in a design tool like Magic.
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/standardcell/" class="link black dim">
-        Standard cell
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      One of the many things a PDK contains is the standard cell library. This is a collection of all the analogue and digital building blocks used to build an IC.
-Here are some examples taken from the high density Skywater 130nm standard cell library.
-XOR D type Flip Flop Inverter 
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/asic/" class="link black dim">
-        ASIC
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Application Specific Integrated Circuit
-An ASIC is a custom IC. Typically big semiconductor companies produce millions of chips, which offsets the large costs related to the masks. An Application Specific IC is something you design when you need a chip that isn&rsquo;t available off-the-shelf.
-Here&rsquo;s a picture from magic showing a layout of my VGA clock
-And a zoom, more clearly showing the standard cells
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/macro/" class="link black dim">
-        Macro
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      From http://88physicaldesign.blogspot.com/2015/10/what-is-macro.html:
- Macros are intellectual properties that you can use in your design. You do not need to design it. For example, memories, processor core, serdes, PLL etc.
- A good example would be memory that&rsquo;s been created by OpenRAM. Typically for larger memories in a design you want to avoid using lots of flip-flops. A memory created from flip-flops is much bigger than something that has been optimised just for data storage.
     </div>
   </div>
 </div>

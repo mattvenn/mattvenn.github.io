@@ -36,7 +36,7 @@
 <meta property="og:description" content="want to learn how to make your own custom chip?" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zerotoasic.com/" />
-<meta property="og:updated_time" content="2020-11-13T11:58:32+01:00" />
+<meta property="og:updated_time" content="2020-11-13T13:35:41+01:00" />
 <meta itemprop="name" content="Zero to ASIC">
 <meta itemprop="description" content="want to learn how to make your own custom chip?">
 <meta name="twitter:card" content="summary"/>
@@ -162,26 +162,20 @@
   <div class="db pv4 ph3 ph0-l no-underline dark-gray">
     <div class="flex flex-column flex-row-ns">
       
-          
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://www.zerotoasic.com/terminology/hdl/" class="db grow">
-            <img src="https://www.zerotoasic.com/hdl.png" class="img" alt="image from HDL">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
+      <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://www.zerotoasic.com/terminology/hdl/" class="color-inherit dim link">
-            HDL
+          <a href="https://www.zerotoasic.com/terminology/cmos/" class="color-inherit dim link">
+            CMOS
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          A Hardware Description Language is used to&hellip; describe hardware! So instead of drawing out an inverter using a tool like Magic we can write a line like this:
-input = !output;  Which describes what an inverter does. The ! means invert.
-Common HDLs are Verilog and VHDL. There are also higher level languages like nMigen, Migen, chisel, spinal. These are often implemented as a library to a programming language like Python.
+          https://en.wikipedia.org/wiki/CMOS:
+ Complementary Metal Oxide Semiconductor (CMOS) is a type of MOSFET fabrication process that uses complementary and symmetrical pairs of p-type and n-type MOSFETs to build logic functions.
+ It is low powered compared to NMOS.
+Here is a CMOS inverter showing the complementary N and P type MOSFETs.
+And here&rsquo;s how it could be laid out using a tool like Magic
         </div>
-          <a href="https://www.zerotoasic.com/terminology/hdl/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://www.zerotoasic.com/terminology/cmos/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -198,14 +192,14 @@ Common HDLs are Verilog and VHDL. There are also higher level languages like nMi
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://www.zerotoasic.com/terminology/simulation/" class="color-inherit dim link">
-            Simulation
+          <a href="https://www.zerotoasic.com/terminology/process/" class="color-inherit dim link">
+            Process
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          
+          node
         </div>
-          <a href="https://www.zerotoasic.com/terminology/simulation/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://www.zerotoasic.com/terminology/process/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -223,23 +217,23 @@ Common HDLs are Verilog and VHDL. There are also higher level languages like nMi
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://www.zerotoasic.com/terminology/foundry/" class="db grow">
-            <img src="https://www.zerotoasic.com/skywater-foundry.jpg" class="img" alt="image from Foundry">
+          <a href="https://www.zerotoasic.com/terminology/nmos/" class="db grow">
+            <img src="https://www.zerotoasic.com/nmos.png" class="img" alt="image from NMOS">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://www.zerotoasic.com/terminology/foundry/" class="color-inherit dim link">
-            Foundry
+          <a href="https://www.zerotoasic.com/terminology/nmos/" class="color-inherit dim link">
+            NMOS
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Foundry is the fancy semiconductor word for factory. You have to admit, silicon foundry does sound cool.
-From Skywater&rsquo;s website
- The SkyWater facility was originally established by Minnesota based Control Data Corporation (CDC) in the 1980s. The CDC fab was acquired by Cypress Semiconductor in 1991. During the Cypress era, the facility was expanded and upgraded multiple times, keeping pace with Moore&rsquo;s Law into the late 2000s and was known for being a US-based production facility that was competitive with Asian-based fabs.
+          NMOS refers to building the standard cells we need for building our IC out of only N-type MOSFETs
+Heres how we can build an inverter from only N-type MOSFETS.
+   Input Output     0 1   1 0    If the input is low, the gate is not charged and current doesn&rsquo;t flow through the MOSFET. The resistor pulls up the output to make it high.
         </div>
-          <a href="https://www.zerotoasic.com/terminology/foundry/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://www.zerotoasic.com/terminology/nmos/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -256,26 +250,26 @@ From Skywater&rsquo;s website
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://www.zerotoasic.com/terminology/mpw/" class="link black dim">
-              MPW
+            <a href="https://www.zerotoasic.com/terminology/wlcsp/" class="link black dim">
+              WLCSP
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://www.zerotoasic.com/terminology/photolithography/" class="link black dim">
-              Photolithography
+            <a href="https://www.zerotoasic.com/terminology/hdl/" class="link black dim">
+              HDL
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://www.zerotoasic.com/terminology/doping/" class="link black dim">
-              Doping
+            <a href="https://www.zerotoasic.com/terminology/simulation/" class="link black dim">
+              Simulation
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://www.zerotoasic.com/terminology/wafer/" class="link black dim">
-              Wafer
+            <a href="https://www.zerotoasic.com/terminology/foundry/" class="link black dim">
+              Foundry
             </a>
           </h2>
         
