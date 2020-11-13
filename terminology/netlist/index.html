@@ -6,7 +6,11 @@
     
     <title>Netlist | Zero to ASIC</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="A netlist is a machine readable file that contains all the connections between all the components in your design.
+They are one of the outputs of a Synthesis tool like Yosys.
+These examples are taken from http://www.clifford.at/yosys/screenshots.html
+If you have a counter design written in an HDL like Verilog
+module counter (clk, rst, en, count); input clk, rst, en; output reg [3:0] count; always @(posedge clk) if (rst) count &lt;= 4&#39;d0; else if (en) count &lt;= count &#43; 4&#39;d1; endmodule  The output netlist can be visualised like this:">
     <meta name="generator" content="Hugo 0.78.1" />
     
     
@@ -28,23 +32,35 @@
     
     
     <meta property="og:title" content="Netlist" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="A netlist is a machine readable file that contains all the connections between all the components in your design.
+They are one of the outputs of a Synthesis tool like Yosys.
+These examples are taken from http://www.clifford.at/yosys/screenshots.html
+If you have a counter design written in an HDL like Verilog
+module counter (clk, rst, en, count); input clk, rst, en; output reg [3:0] count; always @(posedge clk) if (rst) count &lt;= 4&#39;d0; else if (en) count &lt;= count &#43; 4&#39;d1; endmodule  The output netlist can be visualised like this:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.zerotoasic.com/terminology/netlist/" />
 <meta property="article:published_time" content="2020-11-13T10:13:03+01:00" />
 <meta property="article:modified_time" content="2020-11-13T10:13:03+01:00" />
 <meta itemprop="name" content="Netlist">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="A netlist is a machine readable file that contains all the connections between all the components in your design.
+They are one of the outputs of a Synthesis tool like Yosys.
+These examples are taken from http://www.clifford.at/yosys/screenshots.html
+If you have a counter design written in an HDL like Verilog
+module counter (clk, rst, en, count); input clk, rst, en; output reg [3:0] count; always @(posedge clk) if (rst) count &lt;= 4&#39;d0; else if (en) count &lt;= count &#43; 4&#39;d1; endmodule  The output netlist can be visualised like this:">
 <meta itemprop="datePublished" content="2020-11-13T10:13:03+01:00" />
 <meta itemprop="dateModified" content="2020-11-13T10:13:03+01:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="156">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Netlist"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="A netlist is a machine readable file that contains all the connections between all the components in your design.
+They are one of the outputs of a Synthesis tool like Yosys.
+These examples are taken from http://www.clifford.at/yosys/screenshots.html
+If you have a counter design written in an HDL like Verilog
+module counter (clk, rst, en, count); input clk, rst, en; output reg [3:0] count; always @(posedge clk) if (rst) count &lt;= 4&#39;d0; else if (en) count &lt;= count &#43; 4&#39;d1; endmodule  The output netlist can be visualised like this:"/>
 
 	
   </head>
@@ -55,8 +71,10 @@
    
   
 
-  <header>
-    <div class="bg-black">
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://www.zerotoasic.com/show_rtl.png');">
+    <div class="pb1 pt1 bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -69,6 +87,12 @@
 
       
         <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post" title="Articles page">
+              Articles
+            </a>
+          </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
             <a class="hover-white no-underline white-90" href="/terminology" title="Terminology page">
@@ -110,6 +134,12 @@
   </div>
 </nav>
 
+      <div class="tc-l pv1 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Netlist</h1>
+          
+        
+      </div>
     </div>
   </header>
 
@@ -162,7 +192,31 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>A netlist is a machine readable file that contains all the connections between all the components in your design.</p>
+<p>They are one of the outputs of a <a href="/terminology/synthesis">Synthesis</a> tool like Yosys.</p>
+<p>These examples are taken from <a href="http://www.clifford.at/yosys/screenshots.html">http://www.clifford.at/yosys/screenshots.html</a></p>
+<p>If you have a counter design written in an <a href="/terminology/hdl">HDL</a> like Verilog</p>
+<pre><code>module counter (clk, rst, en, count);
+
+   input clk, rst, en;
+   output reg [3:0] count;
+   
+   always @(posedge clk)
+      if (rst)
+         count &lt;= 4'd0;
+      else if (en)
+         count &lt;= count + 4'd1;
+
+endmodule
+</code></pre>
+<p>The output netlist can be visualised like this:</p>
+<p><img src="/show_rtl.png" alt="show RTL"></p>
+<p>You can see the blocks are fairly &lsquo;high level&rsquo;, like multiplexors ($mux), or adders ($add). These types of blocks are not part of
+the Skywater <a href="/terminology/pdk">PDK</a>, so they need to be broken down into more simple blocks.</p>
+<p><img src="/show_cmos.png" alt="show RTL"></p>
+<p>These blocks are now simple enough that they can be mapped onto the <a href="/terminology/standardcell">standard cells</a> we have in the PDK.
+The synthesis process is the first step in the <a href="/terminology/openlane">OpenLane</a> tool.</p>
+<ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
