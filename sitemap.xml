@@ -3,59 +3,219 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.zerotoasic.com/post/multi-project-harness/</loc>
+    <loc>https://www.zerotoasic.com/terminology/foundry/</loc>
+    <lastmod>2020-11-13T11:08:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/</loc>
+    <lastmod>2020-11-13T11:08:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/</loc>
+    <lastmod>2020-11-13T11:08:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/mpw/</loc>
+    <lastmod>2020-11-13T10:58:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/photolithography/</loc>
+    <lastmod>2020-11-13T10:57:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/doping/</loc>
+    <lastmod>2020-11-13T10:39:15+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/wafer/</loc>
+    <lastmod>2020-11-13T10:31:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/die/</loc>
+    <lastmod>2020-11-13T10:31:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/netlist/</loc>
+    <lastmod>2020-11-13T10:13:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/post/how-much-can-we-fit/</loc>
+    <lastmod>2020-11-12T20:00:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/post/vga_clock/</loc>
+    <lastmod>2020-11-12T19:13:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/ic/</loc>
+    <lastmod>2020-11-12T17:49:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/vlsi/</loc>
+    <lastmod>2020-11-12T17:44:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/verification/</loc>
+    <lastmod>2020-11-12T17:44:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/shuttle/</loc>
+    <lastmod>2020-11-12T17:44:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/rtl/</loc>
+    <lastmod>2020-11-12T17:43:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/lvs/</loc>
+    <lastmod>2020-11-12T17:43:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/sta/</loc>
+    <lastmod>2020-11-12T17:43:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/place_and_route/</loc>
+    <lastmod>2020-11-12T17:43:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/synthesis/</loc>
+    <lastmod>2020-11-12T17:43:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/drc/</loc>
+    <lastmod>2020-11-12T17:42:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/gds2/</loc>
+    <lastmod>2020-11-12T17:42:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/maskset/</loc>
+    <lastmod>2020-11-12T17:42:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/tapeout/</loc>
+    <lastmod>2020-11-12T17:42:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/openlane/</loc>
+    <lastmod>2020-11-12T17:39:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/magic/</loc>
+    <lastmod>2020-11-12T17:39:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/spice/</loc>
+    <lastmod>2020-11-12T17:39:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/mosfet/</loc>
+    <lastmod>2020-11-12T17:39:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/pdk/</loc>
+    <lastmod>2020-11-12T17:38:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/standardcell/</loc>
+    <lastmod>2020-11-12T17:38:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/asic/</loc>
+    <lastmod>2020-11-12T17:38:37+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/macro/</loc>
+    <lastmod>2020-11-12T17:06:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/terminology/harden/</loc>
+    <lastmod>2020-11-12T16:52:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zerotoasic.com/post/multi-project-harness/</loc>
     <lastmod>2020-11-12T14:54:58+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/</loc>
-    <lastmod>2020-11-12T14:54:58+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zerotoasic.com/post/remoticon-talk/</loc>
+    <loc>https://www.zerotoasic.com/post/remoticon-talk/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/tags/</loc>
+    <loc>https://www.zerotoasic.com/tags/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/tags/videos/</loc>
+    <loc>https://www.zerotoasic.com/tags/videos/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/post/inverter/</loc>
+    <loc>https://www.zerotoasic.com/post/inverter/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/tags/magic/</loc>
+    <loc>https://www.zerotoasic.com/tags/magic/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/post/</loc>
+    <loc>https://www.zerotoasic.com/post/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/about/</loc>
+    <loc>https://www.zerotoasic.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/categories/</loc>
+    <loc>https://www.zerotoasic.com/categories/</loc>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/resources/</loc>
+    <loc>https://www.zerotoasic.com/resources/</loc>
   </url>
   
   <url>
-    <loc>http://www.zerotoasic.com/contact/</loc>
+    <loc>https://www.zerotoasic.com/contact/</loc>
   </url>
   
 </urlset>

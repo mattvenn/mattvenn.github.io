@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminology on Zero to ASIC</title>
+    <link>https://www.zerotoasic.com/terminology/</link>
+    <description>Recent content in Terminology on Zero to ASIC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Nov 2020 11:08:44 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foundry</title>
+      <link>https://www.zerotoasic.com/terminology/foundry/</link>
+      <pubDate>Fri, 13 Nov 2020 11:08:44 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/foundry/</guid>
+      <description>Foundry is the fancy semiconductor word for factory. You have to admit, silicon foundry does sound cool.
+From Skywater&amp;rsquo;s website
+ The SkyWater facility was originally established by Minnesota based Control Data Corporation (CDC) in the 1980s. The CDC fab was acquired by Cypress Semiconductor in 1991. During the Cypress era, the facility was expanded and upgraded multiple times, keeping pace with Moore&amp;rsquo;s Law into the late 2000s and was known for being a US-based production facility that was competitive with Asian-based fabs.</description>
+    </item>
+    
+    <item>
+      <title>MPW</title>
+      <link>https://www.zerotoasic.com/terminology/mpw/</link>
+      <pubDate>Fri, 13 Nov 2020 10:58:24 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/mpw/</guid>
+      <description>A Multi Project Wafer is used to reduce the cost of making an ASIC. By using a lot of different designs on the same wafer the Non Recurring Engineering (NRE) costs of making the mask set are shared between all the participants.
+Image from EuroPractice
+The Google shuttle is an MPW.</description>
+    </item>
+    
+    <item>
+      <title>Photolithography</title>
+      <link>https://www.zerotoasic.com/terminology/photolithography/</link>
+      <pubDate>Fri, 13 Nov 2020 10:57:47 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/photolithography/</guid>
+      <description>Sam Zeloof did a great talk about his home IC foundry at the Hackaday Supercon 2019.
+  This slide shows an overview of the process:
+A series of masks is used to build up a 3 dimensional structure on the wafer.
+Each step is fundamentally the same:
+ coat the wafer in photo resist bake it use a mask to cover certain areas and use light (often UV) to illuminate the areas not covered develop the mask, which will wash out the areas exposed.</description>
+    </item>
+    
+    <item>
+      <title>Doping</title>
+      <link>https://www.zerotoasic.com/terminology/doping/</link>
+      <pubDate>Fri, 13 Nov 2020 10:39:15 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/doping/</guid>
+      <description>Doping is when we add impurities to the extremely pure silicon. This changes the electrochemical properties of the silicon. Silicon is in group 4 of the periodic table. Like Carbon it makes nice solid bonds in 4 directions. By adding elements from the 3rd or 5th columns we can add extra electrons or extra positive charges (holes where there are no electrons).
+Image source
+The elements we typically use are Boron for p-type (positive holes) doping and Phosphoros or Arsenic for n-type (extra electrons) doping.</description>
+    </item>
+    
+    <item>
+      <title>Wafer</title>
+      <link>https://www.zerotoasic.com/terminology/wafer/</link>
+      <pubDate>Fri, 13 Nov 2020 10:31:47 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/wafer/</guid>
+      <description>Silicon is purified to around 99.9999999%! Then it is sliced into very thin round sheets called wafers.
+The type used in the Skywater 130nm process is doped to become p-type.
+I found these great videos about the birth of the Japanese semiconductor industry. Jump to about 12 minutes in to see how they pull the silicon ingot out of the molten material.
+  After the wafers are ready, they can be patterned using the lithographic process, using a series of masks</description>
+    </item>
+    
+    <item>
+      <title>Die</title>
+      <link>https://www.zerotoasic.com/terminology/die/</link>
+      <pubDate>Fri, 13 Nov 2020 10:31:34 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/die/</guid>
+      <description>The silicon wafer is usually patterned with the mask set to make hundreds or thousands of the same IC.
+Each of these ICs are then cut out of the wafer and are called dies.
+The die is then somehow packaged. Often they are mounted to a leadframe and then moulded into a plastic packaging to make them larger and easier to handle.
+Image from Sergei Frolov
+Read more about how the dual in line package was created (DIP) in this Hackaday article</description>
+    </item>
+    
+    <item>
+      <title>Netlist</title>
+      <link>https://www.zerotoasic.com/terminology/netlist/</link>
+      <pubDate>Fri, 13 Nov 2020 10:13:03 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/netlist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IC</title>
+      <link>https://www.zerotoasic.com/terminology/ic/</link>
+      <pubDate>Thu, 12 Nov 2020 17:49:00 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/ic/</guid>
+      <description>An Integrated Circuit is a collection of circuit elements all together on one piece of silicon. Example elements include:
+ transistors, for example MOSFETS resistors capacitors  Here is an example of an IC, a type of amplifier called an Op-Amp. The image is from zeptobars</description>
+    </item>
+    
+    <item>
+      <title>VLSI</title>
+      <link>https://www.zerotoasic.com/terminology/vlsi/</link>
+      <pubDate>Thu, 12 Nov 2020 17:44:33 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/vlsi/</guid>
+      <description>Very Large Scale Integration - this term started getting used in the 70s when millions of MOSFETs were integrated together to make one IC.
+This image shows the die of a VLSI IC.
+The image is CC BY-SA 3.0 from https://commons.wikimedia.org/w/index.php?curid=1340494</description>
+    </item>
+    
+    <item>
+      <title>Verification</title>
+      <link>https://www.zerotoasic.com/terminology/verification/</link>
+      <pubDate>Thu, 12 Nov 2020 17:44:17 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/verification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shuttle</title>
+      <link>https://www.zerotoasic.com/terminology/shuttle/</link>
+      <pubDate>Thu, 12 Nov 2020 17:44:07 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/shuttle/</guid>
+      <description>On 30th June 2020, Tim Ansell announced the collaboration between Google and Skywater to provide a free shuttle service in his FOSSI dialup talk.
+  These slides taken from his talk show the overview
+Shuttle is just the semiconductor world&amp;rsquo;s fancy way of saying &amp;lsquo;service&amp;rsquo;. They are often run once every 3 months, which is also the time it takes to get the chips back from the foundry</description>
+    </item>
+    
+    <item>
+      <title>RTL</title>
+      <link>https://www.zerotoasic.com/terminology/rtl/</link>
+      <pubDate>Thu, 12 Nov 2020 17:43:56 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/rtl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LVS</title>
+      <link>https://www.zerotoasic.com/terminology/lvs/</link>
+      <pubDate>Thu, 12 Nov 2020 17:43:29 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/lvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STA</title>
+      <link>https://www.zerotoasic.com/terminology/sta/</link>
+      <pubDate>Thu, 12 Nov 2020 17:43:21 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/sta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Place_and_route</title>
+      <link>https://www.zerotoasic.com/terminology/place_and_route/</link>
+      <pubDate>Thu, 12 Nov 2020 17:43:12 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/place_and_route/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesis</title>
+      <link>https://www.zerotoasic.com/terminology/synthesis/</link>
+      <pubDate>Thu, 12 Nov 2020 17:43:01 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/synthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DRC</title>
+      <link>https://www.zerotoasic.com/terminology/drc/</link>
+      <pubDate>Thu, 12 Nov 2020 17:42:51 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/drc/</guid>
+      <description>The Design Rule Check is part of the PDK. Both the Magic and OpenLane tools make use of it.
+It contains rules that check things like:
+ The gate of the MOSFET are the correct length Wires on the metal layers are not too narrow and not too close Check that MOSFET gates are protected if they have long connecting wires.  This last rule is my favourite.
+When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first.</description>
+    </item>
+    
+    <item>
+      <title>GDS2</title>
+      <link>https://www.zerotoasic.com/terminology/gds2/</link>
+      <pubDate>Thu, 12 Nov 2020 17:42:46 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/gds2/</guid>
+      <description>GDSII/GDS2 is a binary file format that represents the layers needed to produce an ASIC.
+In the OpenLane flow, Magic is used to &amp;lsquo;stream&amp;rsquo; the final GDS2 files.
+We can use other programs or even software libraries to generate valid GDS2 files. Here I&amp;rsquo;ve used gdspy to convert the Hackaday logo into GDS2.
+You can check the very simple program out here
+The Skywater PDK defines all the layers that we can use in the GDS2 files.</description>
+    </item>
+    
+    <item>
+      <title>Maskset</title>
+      <link>https://www.zerotoasic.com/terminology/maskset/</link>
+      <pubDate>Thu, 12 Nov 2020 17:42:33 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/maskset/</guid>
+      <description>From Wikipedia:
+ A photomask is an opaque plate with holes or transparencies that allow light to shine through in a defined pattern. They are commonly used in photolithography and the production of integrated circuits (ICs or &amp;ldquo;chips&amp;rdquo;) in particular. Masks are used to produce a pattern on a substrate, normally a thin slice of silicon known as a wafer in the case of chip manufacturing. Several masks are used in turn, each one reproducing a layer of the completed design, and together they are known as a mask set.</description>
+    </item>
+    
+    <item>
+      <title>Tapeout</title>
+      <link>https://www.zerotoasic.com/terminology/tapeout/</link>
+      <pubDate>Thu, 12 Nov 2020 17:42:16 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/tapeout/</guid>
+      <description>The term &amp;ldquo;tape out&amp;rdquo; was coined in 70&amp;rsquo;s. Historically, the ASIC design files were stored on magnetic tape. The event of carrying out the tape to the foundry was thus called &amp;ldquo;tape out&amp;rdquo;.
+Adapted from https://anysilicon.com/semipedia/tape/</description>
+    </item>
+    
+    <item>
+      <title>OpenLane</title>
+      <link>https://www.zerotoasic.com/terminology/openlane/</link>
+      <pubDate>Thu, 12 Nov 2020 17:39:49 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/openlane/</guid>
+      <description>OpenLane is an Open Source ASIC tool. You can download it from here. The installation instructions are pretty straight forwards and it takes about 15 minutes and 3GB of disk space.
+For a lot of great information on how it works and what it does, please watch Mohamed Shalan&amp;rsquo;s OpenLane FOSSI dialup presentation
+Here&amp;rsquo;s the overview:
+We put our RTL in at one end, and out the other comes the GDS files that are the standard file format for the foundry.</description>
+    </item>
+    
+    <item>
+      <title>Magic</title>
+      <link>https://www.zerotoasic.com/terminology/magic/</link>
+      <pubDate>Thu, 12 Nov 2020 17:39:43 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/magic/</guid>
+      <description>From its homepage:
+ Magic is a venerable VLSI layout tool, written in the 1980&amp;rsquo;s at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology.</description>
+    </item>
+    
+    <item>
+      <title>spice</title>
+      <link>https://www.zerotoasic.com/terminology/spice/</link>
+      <pubDate>Thu, 12 Nov 2020 17:39:43 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/spice/</guid>
+      <description>SPICE general-purpose, open-source analog electronic circuit simulator. It stands for Simulation Program with Integrated Circuit Emphasis. ngspice is a successor, and is easily installable on Linux. It&amp;rsquo;s the simulator I&amp;rsquo;ve used to explore the Skywater 130 PDK.
+Here&amp;rsquo;s an example spice simulation file that I used to simulate the inverter I drew. To find out more about that check this post.
+Inverter Simulation * this file edited to remove everything not in tt lib .</description>
+    </item>
+    
+    <item>
+      <title>MOSFET</title>
+      <link>https://www.zerotoasic.com/terminology/mosfet/</link>
+      <pubDate>Thu, 12 Nov 2020 17:39:16 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/mosfet/</guid>
+      <description>A MOSFET is a type of transistor we can use as a digital switch. The name stands for Metal Oxide Silicon Field Effect Transistor. The first MOSFET was made in 1959 by Mohamed M. Atalla &amp;amp; Dawon Kahng.
+ Easy to manufacture in volume Easy to change its size It is the basic building block of modern electronics  They are the most manufactured object worldwide: 1.3×10^22 of them have been made between 1960 and 2018 - Wikipedia</description>
+    </item>
+    
+    <item>
+      <title>PDK</title>
+      <link>https://www.zerotoasic.com/terminology/pdk/</link>
+      <pubDate>Thu, 12 Nov 2020 17:38:48 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/pdk/</guid>
+      <description>The Process Design Kit is a library of all the specifications that describe a particular factories&#39; particular chip fabrication process.
+In our case we have access to the Skywater factories 130 nanometer process, usually called sky130. This picture shows how the layers of the chip stack up to form the complete ASIC.
+This picture shows all the layers defined in the PDK that can be used in a design tool like Magic.</description>
+    </item>
+    
+    <item>
+      <title>Standard cell</title>
+      <link>https://www.zerotoasic.com/terminology/standardcell/</link>
+      <pubDate>Thu, 12 Nov 2020 17:38:45 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/standardcell/</guid>
+      <description>One of the many things a PDK contains is the standard cell library. This is a collection of all the analogue and digital building blocks used to build an IC.
+Here are some examples taken from the high density Skywater 130nm standard cell library.
+XOR D type Flip Flop Inverter </description>
+    </item>
+    
+    <item>
+      <title>ASIC</title>
+      <link>https://www.zerotoasic.com/terminology/asic/</link>
+      <pubDate>Thu, 12 Nov 2020 17:38:37 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/asic/</guid>
+      <description>Application Specific Integrated Circuit
+An ASIC is a custom IC. Typically big semiconductor companies produce millions of chips, which offsets the large costs related to the masks. An Application Specific IC is something you design when you need a chip that isn&amp;rsquo;t available off-the-shelf.
+Here&amp;rsquo;s a picture from magic showing a layout of my VGA clock
+And a zoom, more clearly showing the standard cells</description>
+    </item>
+    
+    <item>
+      <title>Macro</title>
+      <link>https://www.zerotoasic.com/terminology/macro/</link>
+      <pubDate>Thu, 12 Nov 2020 17:06:52 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/macro/</guid>
+      <description>From http://88physicaldesign.blogspot.com/2015/10/what-is-macro.html:
+ Macros are intellectual properties that you can use in your design. You do not need to design it. For example, memories, processor core, serdes, PLL etc.
+ A good example would be memory that&amp;rsquo;s been created by OpenRAM. Typically for larger memories in a design you want to avoid using lots of flip-flops. A memory created from flip-flops is much bigger than something that has been optimised just for data storage.</description>
+    </item>
+    
+    <item>
+      <title>Harden</title>
+      <link>https://www.zerotoasic.com/terminology/harden/</link>
+      <pubDate>Thu, 12 Nov 2020 16:52:36 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/harden/</guid>
+      <description>To harden a macro means to make it into the final format.</description>
+    </item>
+    
+  </channel>
+</rss>
