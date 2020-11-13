@@ -36,7 +36,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zerotoasic.com/terminology/" />
-<meta property="og:updated_time" content="2020-11-13T13:35:41+01:00" />
+<meta property="og:updated_time" content="2020-11-13T16:48:16+01:00" />
 <meta itemprop="name" content="Terminology">
 <meta itemprop="description" content="">
 <meta name="twitter:card" content="summary"/>
@@ -133,13 +133,45 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Terminology</span>
     <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/lvs/" class="link black dim">
+        LVS
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Layout vs Schematic is an important verification step.
+After the design has been finished and we have the GDS2 files that we can send to the foundry, we want to check that the design is the same as the input that was described by the HDL.
+In the OpenLane tool, at the end we have the LVS step. The netlist is extracted using Magic A tool called Netgen can compare this extracted netlist with the one we get after the synthesis step.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/sta/" class="link black dim">
+        STA
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/place_and_route/" class="link black dim">
         Place and Route
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       Place and Route are 2 steps in the automated process of turning some HDL into GDS2 files. We will look at how OpenLane does these steps.
-Place Placement is
+Place Placement is done gt
 Route 
     </div>
   </div>
@@ -261,39 +293,6 @@ We put our HDL in at one end, and out the other comes the GDS2 files that are th
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       From its homepage:
  Magic is a venerable VLSI layout tool, written in the 1980&rsquo;s at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology.
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/spice/" class="link black dim">
-        SPICE
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      SPICE general-purpose, open-source analog electronic circuit simulator. It stands for Simulation Program with Integrated Circuit Emphasis. ngspice is a successor, and is easily installable on Linux. It&rsquo;s the simulator I&rsquo;ve used to explore the Skywater 130 PDK.
-Here&rsquo;s an example spice simulation file that I used to simulate the inverter I drew.
-Inverter Simulation * this file edited to remove everything not in tt lib .lib &quot;./sky130_fd_pr/models/sky130.lib.spice&quot; tt * instantiate the inverter Xinv Y A VPWR VGND VGND VPWR inverter .
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/mosfet/" class="link black dim">
-        MOSFET
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      A MOSFET is a type of transistor we can use as a digital switch. The name stands for Metal Oxide Silicon Field Effect Transistor. The first MOSFET was made in 1959 by Mohamed M. Atalla &amp; Dawon Kahng.
- Easy to manufacture in volume Easy to change its size It is the basic building block of modern electronics  They are the most manufactured object worldwide: 1.3×10^22 of them have been made between 1960 and 2018 - Wikipedia
     </div>
   </div>
 </div>

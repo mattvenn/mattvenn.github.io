@@ -6,7 +6,37 @@
     <description>Recent content in Terminology on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 13:35:41 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 16:48:16 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Node / Process</title>
+      <link>https://www.zerotoasic.com/terminology/node/</link>
+      <pubDate>Fri, 13 Nov 2020 16:48:16 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/node/</guid>
+      <description>The metrics for measuring integration density used to be metal half-pitch and gate length. For a while they were about the same number. This number became known as the node or process number.
+The half-pitch refers to half the minimum center-to-center distance spacing (or pitch) between Metal 1 lines.
+By 1990s these numbers became uncoupled, and the 130nm node actually has 70nm gates. By 2000, the node number &amp;ldquo;had by then absolutely no meaning&amp;rdquo; (Paolo Gargini.</description>
+    </item>
+    
+    <item>
+      <title>Padring</title>
+      <link>https://www.zerotoasic.com/terminology/padring/</link>
+      <pubDate>Fri, 13 Nov 2020 16:09:29 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/padring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FPGA</title>
+      <link>https://www.zerotoasic.com/terminology/fpga/</link>
+      <pubDate>Fri, 13 Nov 2020 15:42:06 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/fpga/</guid>
+      <description>An FPGA is quite like an ASIC, but has some major differences.
+ Available to buy blank chips cheaply, off-the-shelf Can program your digital design onto them, over and over again Have a very limited set of standard cells - at the least lookup tables, flip-flops, memories. Could include multipliers, memory controllers or other high speed interfaces. No analogue capability Slower than an ASIC  They have a reasonable overlap of the tools required to design for them.</description>
+    </item>
+    
     <item>
       <title>CMOS</title>
       <link>https://www.zerotoasic.com/terminology/cmos/</link>
@@ -18,15 +48,6 @@
  It is low powered compared to NMOS.
 Here is a CMOS inverter showing the complementary N and P type MOSFETs.
 And here&amp;rsquo;s how it could be laid out using a tool like Magic</description>
-    </item>
-    
-    <item>
-      <title>Process</title>
-      <link>https://www.zerotoasic.com/terminology/process/</link>
-      <pubDate>Fri, 13 Nov 2020 13:27:42 +0100</pubDate>
-      
-      <guid>https://www.zerotoasic.com/terminology/process/</guid>
-      <description>node</description>
     </item>
     
     <item>
@@ -68,7 +89,9 @@ Common HDLs are Verilog and VHDL. There are also higher level languages like nMi
       <pubDate>Fri, 13 Nov 2020 11:58:01 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/simulation/</guid>
-      <description></description>
+      <description>Simulation lets us see the design working. It&amp;rsquo;s useful for debugging while designing and it can also be used to verify that the design is working correctly.
+There are quite a few Open Source simulators available: iverilog, verilator and recently CXXRTL (a good review of CXXRTL by Tom Verbeure).
+We provide our HDL design and a testbench and we get back a data dump of the results of the simulation. The data is usually in the form of a VCD (value change dump).</description>
     </item>
     
     <item>
@@ -186,14 +209,15 @@ The image is CC BY-SA 3.0 from https://commons.wikimedia.org/w/index.php?curid=1
     </item>
     
     <item>
-      <title>Shuttle</title>
+      <title>Google / Skywater Shuttle</title>
       <link>https://www.zerotoasic.com/terminology/shuttle/</link>
       <pubDate>Thu, 12 Nov 2020 17:44:07 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/shuttle/</guid>
-      <description>On 30th June 2020, Tim Ansell announced the collaboration between Google and Skywater to provide a free shuttle service in his FOSSI dialup talk.
-  These slides taken from his talk show the overview
-Shuttle is just the semiconductor world&amp;rsquo;s fancy way of saying &amp;lsquo;service&amp;rsquo;. They are often run once every 3 months, which is also the time it takes to get the chips back from the foundry</description>
+      <description>A shuttle service is the same as a multi project wafer.
+On 30th June 2020, Tim Ansell announced the collaboration between Google and Skywater to provide a free shuttle service in his FOSSI dialup talk.
+  These slides taken from his talk show the overview:
+Normally in an MPW you would have the whole die to yourself. In the Google/Skywater Shuttle all the designs will be within the user project area of the Caravel harness.</description>
     </item>
     
     <item>
@@ -234,7 +258,7 @@ In the OpenLane tool, at the end we have the LVS step. The netlist is extracted 
       
       <guid>https://www.zerotoasic.com/terminology/place_and_route/</guid>
       <description>Place and Route are 2 steps in the automated process of turning some HDL into GDS2 files. We will look at how OpenLane does these steps.
-Place Placement is
+Place Placement is done gt
 Route </description>
     </item>
     
@@ -344,8 +368,11 @@ Inverter Simulation * this file edited to remove everything not in tt lib .lib &
       
       <guid>https://www.zerotoasic.com/terminology/pdk/</guid>
       <description>The Process Design Kit is a library of all the specifications that describe a particular factories&#39; particular chip fabrication process.
-In our case we have access to the Skywater factories 130 nanometer process, usually called sky130. This picture shows how the layers of the chip stack up to form the complete ASIC.
-This picture shows all the layers defined in the PDK that can be used in a design tool like Magic.</description>
+In our case we have access to the Skywater factories 130 nanometer process, usually called sky130.
+Tim Edwards:
+ Note that this process is advertised as a &amp;ldquo;hybrid 180nm / 130nm&amp;rdquo;.
+A number of aspects are either very close to a 180nm process or somewhere between 180 and 130.
+The typical minimum length low-voltage transistor is 150nm.</description>
     </item>
     
     <item>

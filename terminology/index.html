@@ -36,7 +36,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zerotoasic.com/terminology/" />
-<meta property="og:updated_time" content="2020-11-13T13:35:41+01:00" />
+<meta property="og:updated_time" content="2020-11-13T16:48:16+01:00" />
 <meta itemprop="name" content="Terminology">
 <meta itemprop="description" content="">
 <meta name="twitter:card" content="summary"/>
@@ -133,6 +133,54 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Terminology</span>
     <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/node/" class="link black dim">
+        Node / Process
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      The metrics for measuring integration density used to be metal half-pitch and gate length. For a while they were about the same number. This number became known as the node or process number.
+The half-pitch refers to half the minimum center-to-center distance spacing (or pitch) between Metal 1 lines.
+By 1990s these numbers became uncoupled, and the 130nm node actually has 70nm gates. By 2000, the node number &ldquo;had by then absolutely no meaning&rdquo; (Paolo Gargini.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/padring/" class="link black dim">
+        Padring
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/fpga/" class="link black dim">
+        FPGA
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      An FPGA is quite like an ASIC, but has some major differences.
+ Available to buy blank chips cheaply, off-the-shelf Can program your digital design onto them, over and over again Have a very limited set of standard cells - at the least lookup tables, flip-flops, memories. Could include multipliers, memory controllers or other high speed interfaces. No analogue capability Slower than an ASIC  They have a reasonable overlap of the tools required to design for them.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/cmos/" class="link black dim">
         CMOS
       </a>
@@ -143,21 +191,6 @@
  It is low powered compared to NMOS.
 Here is a CMOS inverter showing the complementary N and P type MOSFETs.
 And here&rsquo;s how it could be laid out using a tool like Magic
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/process/" class="link black dim">
-        Process
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      node
     </div>
   </div>
 </div>
@@ -223,7 +256,9 @@ Common HDLs are Verilog and VHDL. There are also higher level languages like nMi
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      
+      Simulation lets us see the design working. It&rsquo;s useful for debugging while designing and it can also be used to verify that the design is working correctly.
+There are quite a few Open Source simulators available: iverilog, verilator and recently CXXRTL (a good review of CXXRTL by Tom Verbeure).
+We provide our HDL design and a testbench and we get back a data dump of the results of the simulation. The data is usually in the form of a VCD (value change dump).
     </div>
   </div>
 </div>
@@ -258,42 +293,6 @@ From Skywater&rsquo;s website
       A Multi Project Wafer is used to reduce the cost of making an ASIC. By using a lot of different designs on the same wafer the Non Recurring Engineering (NRE) costs of making the mask set are shared between all the participants.
 Image from EuroPractice
 The Google shuttle is an MPW.
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/photolithography/" class="link black dim">
-        Photolithography
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Sam Zeloof did a great talk about his home IC foundry at the Hackaday Supercon 2019.
-  This slide shows an overview of the process:
-A series of masks is used to build up a 3 dimensional structure on the wafer.
-Each step is fundamentally the same:
- coat the wafer in photo resist bake it use a mask to cover certain areas and use light (often UV) to illuminate the areas not covered develop the mask, which will wash out the areas exposed.
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/doping/" class="link black dim">
-        Doping
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Doping is when we add impurities to the extremely pure silicon. This changes the electrochemical properties of the silicon. Silicon is in group 4 of the periodic table. Like Carbon it makes nice solid bonds in 4 directions. By adding elements from the 3rd or 5th columns we can add extra electrons or extra positive charges (holes where there are no electrons).
-Image source
-The elements we typically use are Boron for p-type (positive holes) doping and Phosphoros or Arsenic for n-type (extra electrons) doping.
     </div>
   </div>
 </div>
