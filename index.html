@@ -36,7 +36,7 @@
 <meta property="og:description" content="want to learn how to make your own custom chip?" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zerotoasic.com/" />
-<meta property="og:updated_time" content="2020-11-13T16:48:16+01:00" />
+<meta property="og:updated_time" content="2020-11-13T18:20:59+01:00" />
 <meta itemprop="name" content="Zero to ASIC">
 <meta itemprop="description" content="want to learn how to make your own custom chip?">
 <meta name="twitter:card" content="summary"/>
@@ -165,6 +165,39 @@
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <a href="https://www.zerotoasic.com/terminology/floorplan/" class="db grow">
+            <img src="https://www.zerotoasic.com/floorplan.png" class="img" alt="image from Floorplan">
+          </a>
+        </div>
+      
+      <div class="blah w-100 w-60-ns pl3-ns">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://www.zerotoasic.com/terminology/floorplan/" class="color-inherit dim link">
+            Floorplan
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          The floorplanning stage is where OpenLane decides how big an area we need to fit everything in. All the required standard cells are placed in the bottom left corner, ready for the place and route stage.
+All the little rectangles in the centre are called tap cells. They make sure the MOSFETs work correctly by connecting the P doped substrate to ground and the N-wells (that insulate the P-type MOSFETS) to power.
+        </div>
+          <a href="https://www.zerotoasic.com/terminology/floorplan/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+          
+        
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <a href="https://www.zerotoasic.com/terminology/node/" class="db grow">
             <img src="https://www.zerotoasic.com/half-pitch.png" class="img" alt="image from Node / Process">
           </a>
@@ -196,49 +229,27 @@ By 1990s these numbers became uncoupled, and the 130nm node actually has 70nm ga
   <div class="db pv4 ph3 ph0-l no-underline dark-gray">
     <div class="flex flex-column flex-row-ns">
       
-      <div class="blah w-100">
+          
+        
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <a href="https://www.zerotoasic.com/terminology/padring/" class="db grow">
+            <img src="https://www.zerotoasic.com/raven.png" class="img" alt="image from Padring">
+          </a>
+        </div>
+      
+      <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="https://www.zerotoasic.com/terminology/padring/" class="color-inherit dim link">
             Padring
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          
+          We need to make sure we can package the IC after the wafer has been diced into individual dies.
+A common way of packaging ICs is to connect them to a leadframe by bonding tiny wires between the leads of the leadframe and the pads on the die.
+The big bond pads around the outside of the IC often include ESD protection diodes, Input/Output drivers and so on.
+This picture shows raven, an IC from efabless.
         </div>
           <a href="https://www.zerotoasic.com/terminology/padring/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://www.zerotoasic.com/terminology/fpga/" class="db grow">
-            <img src="https://www.zerotoasic.com/fpga-lut.png" class="img" alt="image from FPGA">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://www.zerotoasic.com/terminology/fpga/" class="color-inherit dim link">
-            FPGA
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          An FPGA is quite like an ASIC, but has some major differences.
- Available to buy blank chips cheaply, off-the-shelf Can program your digital design onto them, over and over again Have a very limited set of standard cells - at the least lookup tables, flip-flops, memories. Could include multipliers, memory controllers or other high speed interfaces. No analogue capability Slower than an ASIC  They have a reasonable overlap of the tools required to design for them.
-        </div>
-          <a href="https://www.zerotoasic.com/terminology/fpga/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -255,6 +266,12 @@ By 1990s these numbers became uncoupled, and the 130nm node actually has 70nm ga
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="https://www.zerotoasic.com/terminology/fpga/" class="link black dim">
+              FPGA
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
             <a href="https://www.zerotoasic.com/terminology/cmos/" class="link black dim">
               CMOS
             </a>
@@ -269,12 +286,6 @@ By 1990s these numbers became uncoupled, and the 130nm node actually has 70nm ga
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="https://www.zerotoasic.com/terminology/wlcsp/" class="link black dim">
               WLCSP
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://www.zerotoasic.com/terminology/hdl/" class="link black dim">
-              HDL
             </a>
           </h2>
         

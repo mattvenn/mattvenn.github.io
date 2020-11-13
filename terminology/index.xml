@@ -6,7 +6,17 @@
     <description>Recent content in Terminology on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 16:48:16 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 18:20:59 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Floorplan</title>
+      <link>https://www.zerotoasic.com/terminology/floorplan/</link>
+      <pubDate>Fri, 13 Nov 2020 18:20:59 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/floorplan/</guid>
+      <description>The floorplanning stage is where OpenLane decides how big an area we need to fit everything in. All the required standard cells are placed in the bottom left corner, ready for the place and route stage.
+All the little rectangles in the centre are called tap cells. They make sure the MOSFETs work correctly by connecting the P doped substrate to ground and the N-wells (that insulate the P-type MOSFETS) to power.</description>
+    </item>
+    
     <item>
       <title>Node / Process</title>
       <link>https://www.zerotoasic.com/terminology/node/</link>
@@ -24,7 +34,10 @@ By 1990s these numbers became uncoupled, and the 130nm node actually has 70nm ga
       <pubDate>Fri, 13 Nov 2020 16:09:29 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/padring/</guid>
-      <description></description>
+      <description>We need to make sure we can package the IC after the wafer has been diced into individual dies.
+A common way of packaging ICs is to connect them to a leadframe by bonding tiny wires between the leads of the leadframe and the pads on the die.
+The big bond pads around the outside of the IC often include ESD protection diodes, Input/Output drivers and so on.
+This picture shows raven, an IC from efabless.</description>
     </item>
     
     <item>
@@ -161,7 +174,7 @@ I found these great videos about the birth of the Japanese semiconductor industr
       <description>The silicon wafer is usually patterned with the mask set to make hundreds or thousands of the same IC.
 Each of these ICs are then cut out of the wafer and are called dies.
 The die is then somehow packaged. Often they are mounted to a leadframe and then moulded into a plastic packaging to make them larger and easier to handle.
-Image from Sergei Frolov
+Leadframe Image from Sergei Frolov
 Read more about how the dual in line package was created (DIP) in this Hackaday article</description>
     </item>
     
@@ -205,7 +218,9 @@ The image is CC BY-SA 3.0 from https://commons.wikimedia.org/w/index.php?curid=1
       <pubDate>Thu, 12 Nov 2020 17:44:17 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/verification/</guid>
-      <description></description>
+      <description>Simulation offers us a way of checking the design is doing what we expect, but that is almost exactly why simulation on its own isn&amp;rsquo;t enough. When we simulate we are testing what we expect to happen. The problems happen when your design experiences something outside the expected.
+There are a couple of extra tools we can use to increase our confidence that the design will work as designed.
+Coverage A coverage tool tests how complete your simulation or verification efforts actually are.</description>
     </item>
     
     <item>
@@ -217,7 +232,7 @@ The image is CC BY-SA 3.0 from https://commons.wikimedia.org/w/index.php?curid=1
       <description>A shuttle service is the same as a multi project wafer.
 On 30th June 2020, Tim Ansell announced the collaboration between Google and Skywater to provide a free shuttle service in his FOSSI dialup talk.
   These slides taken from his talk show the overview:
-Normally in an MPW you would have the whole die to yourself. In the Google/Skywater Shuttle all the designs will be within the user project area of the Caravel harness.</description>
+Caravel Normally in an MPW you would have the whole die to yourself. In the Google/Skywater Shuttle all the designs will be within the user project area of the Caravel harness.</description>
     </item>
     
     <item>
@@ -248,7 +263,10 @@ In the OpenLane tool, at the end we have the LVS step. The netlist is extracted 
       <pubDate>Thu, 12 Nov 2020 17:43:21 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/sta/</guid>
-      <description></description>
+      <description>Static Timing Analysis helps us to understand how fast we can expect our chip to run.
+OpenLane uses a tool called OpenSTA It&amp;rsquo;s job is to analyse the &amp;lsquo;critical paths&amp;rsquo; in the design and then work out how long it will take those paths to propagate a signal.
+After OpenLane finishes, we get a report from OpenSTA: reports/synthesis/opensta.min_max.rpt
+The required timing is set in the OpenLane config file. By default it&amp;rsquo;s 10ns, which means we are targetting a clock frequency of 100MHz.</description>
     </item>
     
     <item>
@@ -257,9 +275,10 @@ In the OpenLane tool, at the end we have the LVS step. The netlist is extracted 
       <pubDate>Thu, 12 Nov 2020 17:43:12 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/place_and_route/</guid>
-      <description>Place and Route are 2 steps in the automated process of turning some HDL into GDS2 files. We will look at how OpenLane does these steps.
-Place Placement is done gt
-Route </description>
+      <description>Place and Route are 2 steps in the automated process of turning some HDL into GDS2 files. We will look at how OpenLane does these steps using the seven segment seconds example.
+I have used my presentation tools to generate these images.
+Place Placement is done in two steps, coarse and fine. The coarse step puts the standard cells in roughly the right place. The file shown is replace.def.
+The fine step aligns the cells to the grid and makes sure they don&amp;rsquo;t overlap.</description>
     </item>
     
     <item>

@@ -36,7 +36,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zerotoasic.com/terminology/" />
-<meta property="og:updated_time" content="2020-11-13T16:48:16+01:00" />
+<meta property="og:updated_time" content="2020-11-13T18:20:59+01:00" />
 <meta itemprop="name" content="Terminology">
 <meta itemprop="description" content="">
 <meta name="twitter:card" content="summary"/>
@@ -133,6 +133,23 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Terminology</span>
     <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/mpw/" class="link black dim">
+        MPW
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      A Multi Project Wafer is used to reduce the cost of making an ASIC. By using a lot of different designs on the same wafer the Non Recurring Engineering (NRE) costs of making the mask set are shared between all the participants.
+Image from EuroPractice
+The Google shuttle is an MPW.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/photolithography/" class="link black dim">
         Photolithography
       </a>
@@ -195,7 +212,7 @@ I found these great videos about the birth of the Japanese semiconductor industr
       The silicon wafer is usually patterned with the mask set to make hundreds or thousands of the same IC.
 Each of these ICs are then cut out of the wafer and are called dies.
 The die is then somehow packaged. Often they are mounted to a leadframe and then moulded into a plastic packaging to make them larger and easier to handle.
-Image from Sergei Frolov
+Leadframe Image from Sergei Frolov
 Read more about how the dual in line package was created (DIP) in this Hackaday article
     </div>
   </div>
@@ -263,7 +280,9 @@ The image is CC BY-SA 3.0 from https://commons.wikimedia.org/w/index.php?curid=1
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      
+      Simulation offers us a way of checking the design is doing what we expect, but that is almost exactly why simulation on its own isn&rsquo;t enough. When we simulate we are testing what we expect to happen. The problems happen when your design experiences something outside the expected.
+There are a couple of extra tools we can use to increase our confidence that the design will work as designed.
+Coverage A coverage tool tests how complete your simulation or verification efforts actually are.
     </div>
   </div>
 </div>
@@ -281,24 +300,7 @@ The image is CC BY-SA 3.0 from https://commons.wikimedia.org/w/index.php?curid=1
       A shuttle service is the same as a multi project wafer.
 On 30th June 2020, Tim Ansell announced the collaboration between Google and Skywater to provide a free shuttle service in his FOSSI dialup talk.
   These slides taken from his talk show the overview:
-Normally in an MPW you would have the whole die to yourself. In the Google/Skywater Shuttle all the designs will be within the user project area of the Caravel harness.
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/rtl/" class="link black dim">
-        RTL
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      People often use the terms RTL and HDL interchangably.
-I see it in a bit of a different way, influenced by Carver &amp; Mead&rsquo;s book &ldquo;Introduction to VLSI systems&rdquo;. It&rsquo;s more of a design methodology.
-For reasons of speed and debugging, it makes sense to split up the data processing into smaller steps and buffer the results in registers (small memories usually made up of a stack of flip-flops). As the data flows between registers, it&rsquo;s called register transfer level.
+Caravel Normally in an MPW you would have the whole die to yourself. In the Google/Skywater Shuttle all the designs will be within the user project area of the Caravel harness.
     </div>
   </div>
 </div>

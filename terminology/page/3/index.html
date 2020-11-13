@@ -36,7 +36,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zerotoasic.com/terminology/" />
-<meta property="og:updated_time" content="2020-11-13T16:48:16+01:00" />
+<meta property="og:updated_time" content="2020-11-13T18:20:59+01:00" />
 <meta itemprop="name" content="Terminology">
 <meta itemprop="description" content="">
 <meta name="twitter:card" content="summary"/>
@@ -133,6 +133,23 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Terminology</span>
     <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/rtl/" class="link black dim">
+        RTL
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      People often use the terms RTL and HDL interchangably.
+I see it in a bit of a different way, influenced by Carver &amp; Mead&rsquo;s book &ldquo;Introduction to VLSI systems&rdquo;. It&rsquo;s more of a design methodology.
+For reasons of speed and debugging, it makes sense to split up the data processing into smaller steps and buffer the results in registers (small memories usually made up of a stack of flip-flops). As the data flows between registers, it&rsquo;s called register transfer level.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Terminology</span>
+    <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/lvs/" class="link black dim">
         LVS
       </a>
@@ -155,7 +172,10 @@ In the OpenLane tool, at the end we have the LVS step. The netlist is extracted 
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      
+      Static Timing Analysis helps us to understand how fast we can expect our chip to run.
+OpenLane uses a tool called OpenSTA It&rsquo;s job is to analyse the &lsquo;critical paths&rsquo; in the design and then work out how long it will take those paths to propagate a signal.
+After OpenLane finishes, we get a report from OpenSTA: reports/synthesis/opensta.min_max.rpt
+The required timing is set in the OpenLane config file. By default it&rsquo;s 10ns, which means we are targetting a clock frequency of 100MHz.
     </div>
   </div>
 </div>
@@ -170,9 +190,10 @@ In the OpenLane tool, at the end we have the LVS step. The netlist is extracted 
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Place and Route are 2 steps in the automated process of turning some HDL into GDS2 files. We will look at how OpenLane does these steps.
-Place Placement is done gt
-Route 
+      Place and Route are 2 steps in the automated process of turning some HDL into GDS2 files. We will look at how OpenLane does these steps using the seven segment seconds example.
+I have used my presentation tools to generate these images.
+Place Placement is done in two steps, coarse and fine. The coarse step puts the standard cells in roughly the right place. The file shown is replace.def.
+The fine step aligns the cells to the grid and makes sure they don&rsquo;t overlap.
     </div>
   </div>
 </div>
@@ -277,22 +298,6 @@ Adapted from https://anysilicon.com/semipedia/tape/
 For a lot of great information on how it works and what it does, please watch Mohamed Shalan&rsquo;s OpenLane FOSSI dialup presentation
 Here&rsquo;s the overview:
 We put our HDL in at one end, and out the other comes the GDS2 files that are the standard file format for the foundry.
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasic.com/terminology/magic/" class="link black dim">
-        Magic
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      From its homepage:
- Magic is a venerable VLSI layout tool, written in the 1980&rsquo;s at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology.
     </div>
   </div>
 </div>
