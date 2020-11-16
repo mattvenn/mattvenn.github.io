@@ -172,10 +172,9 @@ In the OpenLane tool, at the end we have the LVS step. The netlist is extracted 
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Static Timing Analysis helps us to understand how fast we can expect our chip to run.
-OpenLane uses a tool called OpenSTA Its job is to analyse the &lsquo;critical paths&rsquo; in the design and then work out how long it will take those paths to propagate a signal.
-After OpenLane finishes, we get a report from OpenSTA: reports/synthesis/opensta.min_max.rpt
-The required timing is set in the OpenLane config file. By default it&rsquo;s 10ns, which means we are targetting a clock frequency of 100MHz.
+      Static Timing Analysis checks that at the desired speed, there are no setup and hold violations.
+When the input clock rises, a flip-flop will capture and store the incoming data. If data changes in the setup time, then there is a chance the wrong data will be captured. This is a setup violation. The same thing applies to data changing after the clock, which is called a hold violation.
+Image source
     </div>
   </div>
 </div>

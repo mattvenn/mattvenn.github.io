@@ -6,7 +6,20 @@
     <description>Recent content on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 18:20:59 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 20:00:11 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Much Can We Fit on an ASIC?</title>
+      <link>https://www.zerotoasic.com/post/how-much-can-we-fit/</link>
+      <pubDate>Fri, 13 Nov 2020 20:00:11 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/post/how-much-can-we-fit/</guid>
+      <description>The Google / Skywater shuttle reserves about 10 square mm (10 million square microns) of space for your design.
+This comparison that Mohamed from efabless put together shows the various areas (and time to generate the GDS2 files) of some popular designs.
+We could fit in about 10 picorv32 RISCV cores!
+My designs I currently have 3 designs ready to add to the multi project harness:
+   Name Square microns How many would fit?</description>
+    </item>
+    
     <item>
       <title>Floorplan</title>
       <link>https://www.zerotoasic.com/terminology/floorplan/</link>
@@ -37,7 +50,7 @@ By 1990s these numbers became uncoupled, and the 130nm node actually has 70nm ga
       <description>We need to make sure we can package the IC after the wafer has been diced into individual dies.
 A common way of packaging ICs is to connect them to a leadframe by bonding tiny wires between the leads of the leadframe and the pads on the die.
 The big bond pads around the outside of the IC often include ESD protection diodes, Input/Output drivers and so on.
-This picture shows raven, an IC from efabless.</description>
+This picture shows raven, an IC from Efabless.</description>
     </item>
     
     <item>
@@ -114,7 +127,7 @@ We provide our HDL design and a testbench and we get back a data dump of the res
       
       <guid>https://www.zerotoasic.com/terminology/foundry/</guid>
       <description>Foundry is the fancy semiconductor word for factory. You have to admit, silicon foundry does sound cool.
-From Skywater&amp;rsquo;s website
+From SkyWater&amp;rsquo;s website
  The SkyWater facility was originally established by Minnesota based Control Data Corporation (CDC) in the 1980s. The CDC fab was acquired by Cypress Semiconductor in 1991. During the Cypress era, the facility was expanded and upgraded multiple times, keeping pace with Moore&amp;rsquo;s Law into the late 2000s and was known for being a US-based production facility that was competitive with Asian-based fabs.</description>
     </item>
     
@@ -273,10 +286,9 @@ In the OpenLane tool, at the end we have the LVS step. The netlist is extracted 
       <pubDate>Thu, 12 Nov 2020 17:43:21 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/sta/</guid>
-      <description>Static Timing Analysis helps us to understand how fast we can expect our chip to run.
-OpenLane uses a tool called OpenSTA Its job is to analyse the &amp;lsquo;critical paths&amp;rsquo; in the design and then work out how long it will take those paths to propagate a signal.
-After OpenLane finishes, we get a report from OpenSTA: reports/synthesis/opensta.min_max.rpt
-The required timing is set in the OpenLane config file. By default it&amp;rsquo;s 10ns, which means we are targetting a clock frequency of 100MHz.</description>
+      <description>Static Timing Analysis checks that at the desired speed, there are no setup and hold violations.
+When the input clock rises, a flip-flop will capture and store the incoming data. If data changes in the setup time, then there is a chance the wrong data will be captured. This is a setup violation. The same thing applies to data changing after the clock, which is called a hold violation.
+Image source</description>
     </item>
     
     <item>
@@ -411,8 +423,10 @@ The typical minimum length low-voltage transistor is 150nm.</description>
       
       <guid>https://www.zerotoasic.com/terminology/standardcell/</guid>
       <description>One of the many things a PDK contains is the standard cell library. This is a collection of all the analogue and digital building blocks used to build an IC.
-Here are some examples taken from the high density Skywater 130nm standard cell library.
-XOR D type Flip Flop Inverter </description>
+Even though they look flat, they are 3 dimensional structures.
+Image source
+SkyWater 130nm examples Here are some examples taken from the high density SkyWater 130nm standard cell library.
+Inverter XOR D type Flip Flop </description>
     </item>
     
     <item>
@@ -444,7 +458,7 @@ And a zoom, more clearly showing the standard cells</description>
       <pubDate>Thu, 12 Nov 2020 16:52:36 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/terminology/harden/</guid>
-      <description>To harden a macro means to make it into the final format.</description>
+      <description>Harden is the fancy industry word that means to take your HDL and using a tool like OpenLane turn it into the GDS2 files necessary for manufacture by a foundry.</description>
     </item>
     
     <item>
@@ -485,7 +499,7 @@ An inverter is one of the simplest and even that was quite difficult! As you can
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.zerotoasic.com/resources/</guid>
-      <description>Talks  0 to ASIC #remoticon talk on twitch and slides FOSSi foundation dialup talks  Skywater/Google discussion &amp;amp; announcements  Google/Skywater Slack PDK docs Announce mailing list  Tools  Openlane Magic  Courses  Kunal’s udemy courses  Books  Books: search ‘introduction to VLSI systems’  FPGA  FPGA boards: iCEBreaker, TinyFPGA, Black Ice WTFPGA course  </description>
+      <description>Talks  0 to ASIC #remoticon talk on twitch and slides FOSSi foundation dialup talks  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  Openlane Magic  Courses  Kunal’s udemy courses  Books  Books: search ‘introduction to VLSI systems’  FPGA  FPGA boards: iCEBreaker, TinyFPGA, Black Ice WTFPGA course  </description>
     </item>
     
     <item>
@@ -496,7 +510,7 @@ An inverter is one of the simplest and even that was quite difficult! As you can
       <guid>https://www.zerotoasic.com/contact/</guid>
       <description>I am working on a course. The specs are not final but this is the rough idea.
 Express your interest in the Zero to ASIC course here!
-0 to ASIC workshop Design and fabricate your own ASIC! Thanks to the new Open Source Process Development Kit from Google and Skywater along with the latest Open Source ASIC tools from efabless.
+0 to ASIC workshop Design and fabricate your own ASIC! Thanks to the new Open Source Process Development Kit from Google and Skywater along with the latest Open Source ASIC tools from Efabless.
 GCC revolutionised compiling, Linux revolutionised computing. Arduino revolutionised microcontrollers. RISCV is revolutionising ISAs.</description>
     </item>
     
