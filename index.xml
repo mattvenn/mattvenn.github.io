@@ -509,9 +509,8 @@ An inverter is one of the simplest and even that was quite difficult! As you can
       
       <guid>https://www.zerotoasic.com/contact/</guid>
       <description>I am working on a course. The specs are not final but this is the rough idea.
-Express your interest in the Zero to ASIC course here!
-0 to ASIC workshop Design and fabricate your own ASIC! Thanks to the new Open Source Process Development Kit from Google and Skywater along with the latest Open Source ASIC tools from Efabless.
-GCC revolutionised compiling, Linux revolutionised computing. Arduino revolutionised microcontrollers. RISCV is revolutionising ISAs.</description>
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}  Express your interest in this course      0 to ASIC workshop Design and fabricate your own ASIC! Thanks to the new Open Source Process Development Kit from Google and Skywater along with the latest Open Source ASIC tools from Efabless.
+GCC revolutionised compiling, Linux revolutionised computing.</description>
     </item>
     
   </channel>
