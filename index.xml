@@ -467,9 +467,9 @@ And a zoom, more clearly showing the standard cells</description>
       <pubDate>Thu, 12 Nov 2020 14:54:58 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/post/multi-project-harness/</guid>
-      <description>I&amp;rsquo;ve been working on the Zero to ASIC multi project harness.
-The Google/Skywater Shuttle has about 10 square mm of space for your project. This sounds tiny but is actually HUGE for many beginner projects. Read this post to find out what you could fit in the user space.
-For the Zero to ASIC course, I want to aggregate all your designs together into that area, so we need to do some extra bits:</description>
+      <description>The Google/Skywater Shuttle has about 10 square mm of space for your project. This sounds tiny but is actually HUGE for many beginner projects. Read this post to find out what you could fit in the user space.
+For the Zero to ASIC course, I want to aggregate all your designs together into that area, so we need to do some extra bits:
+ Multiplex all the inputs and outputs of your project to the GPIO pins of the Caravel harness.</description>
     </item>
     
     <item>
