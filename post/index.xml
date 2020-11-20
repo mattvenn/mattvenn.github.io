@@ -36,8 +36,9 @@ My designs I currently have 3 designs ready to add to the multi project harness:
       <pubDate>Thu, 12 Nov 2020 19:13:04 +0100</pubDate>
       
       <guid>https://www.zerotoasic.com/post/vga_clock/</guid>
-      <description>This is one of the first projects I hardened using OpenLane
-It shows the time on an LCD panel. It will be part of my first tapeout After running the OpenLane ASIC flow, it results in a design that uses 180x180 microns (32000 square microns). As we have about 10e6 square microns in the user project area of the Google shuttle, I could potentially put about 300 of these on the ASIC!</description>
+      <description>This is one of the first projects I hardened using OpenLane.
+It shows the time on an LCD panel. It will be part of my first tapeout.
+After running the OpenLane ASIC flow, it results in a design that uses 180x180 microns (32000 square microns). As we have about 10e6 square microns in the user project area of the Google shuttle, I could potentially put about 300 of these on the ASIC!</description>
     </item>
     
     <item>
