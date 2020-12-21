@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://www.zerotoasic.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Interview with Arya Reais-Parsi - FPGA fabric</title>
+      <link>https://www.zerotoasic.com/post/interview-with-arya/</link>
+      <pubDate>Sat, 05 Dec 2020 16:08:53 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/post/interview-with-arya/</guid>
+      <description>In this interview I talk with Arya Reais-Parsi about their shuttle submission. They are working with a group of students to create Open Source FPGA fabric that can be put on an ASIC and configured with yosys/nextpnr.
+The repository is here.
+  </description>
+    </item>
+    
+    <item>
       <title>Interview With Sylvain &#39;tnt&#39; Munaut: USB peripherals</title>
       <link>https://www.zerotoasic.com/post/interview-with-tnt/</link>
       <pubDate>Sat, 05 Dec 2020 16:08:53 +0100</pubDate>
@@ -16,6 +27,18 @@
       <description>In this interview I talk with Sylvain &amp;lsquo;tnt&amp;rsquo; Munaut about his Google/Skywater ASIC application.
 The design is especially interesting to me because of the way it merges the SRAM blocks with the logic. This has been a major challenge in my own design.
 Here&amp;rsquo;s the link to the repository
+  </description>
+    </item>
+    
+    <item>
+      <title>Interview With Vladimir Milovanović - spectrometer with Chisel</title>
+      <link>https://www.zerotoasic.com/post/interview-with-vladimir/</link>
+      <pubDate>Sat, 05 Dec 2020 16:08:53 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/post/interview-with-vladimir/</guid>
+      <description>In this interview I talk with Vladimir Milovanović about putting a spectrometer on the Google/Skywater/Efabless ASIC shuttle.
+He created the design using Chisel.
+The repository is here.
   </description>
     </item>
     

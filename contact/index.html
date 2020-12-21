@@ -7,7 +7,7 @@
     <title>Sign up | Zero to ASIC</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Sign up to the course">
-    <meta name="generator" content="Hugo 0.78.1" />
+    <meta name="generator" content="Hugo 0.79.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -35,7 +35,7 @@
 <meta itemprop="name" content="Sign up">
 <meta itemprop="description" content="Sign up to the course">
 
-<meta itemprop="wordCount" content="240">
+<meta itemprop="wordCount" content="1276">
 
 
 
@@ -134,7 +134,7 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        <p>I am working on a course. The specs are not final but this is the rough idea.</p>
+        <p>Sign up to the newsletter to keep up to date with all things Zero to ASIC and to get alerted when new tickets are released.</p>
 
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -155,38 +155,142 @@
 
 
 
-<h1 id="0-to-asic-workshop">0 to ASIC workshop</h1>
+<h1 id="0-to-asic-course">0 to ASIC course</h1>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/50kPORZlFzU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 <p>Design and fabricate your own <a href="/terminology/asic">ASIC</a>! Thanks to the new Open Source <a href="/terminology/pdk">Process Development Kit</a> from Google and Skywater along with the latest Open Source ASIC tools from <a href="https://efabless.com/">Efabless</a>.</p>
 <p>GCC revolutionised compiling, Linux revolutionised computing. Arduino revolutionised microcontrollers. RISCV is revolutionising ISAs. The next step is Open Source Silicon.</p>
 <p>This workshop will allow the opportunity for people to experience creating their own microchips, using free and Open Source tools. We will concentrate on digital design.</p>
-<h1 id="learning-overview">Learning overview</h1>
+<h1 id="overview">Overview</h1>
+<h2 id="format">Format</h2>
 <ul>
-<li>Learn how <a href="/terminology/mosfet">MOSFETs</a> are used to create your design in silicon</li>
-<li>Learn the basics of digital design with <a href="/terminology/hdl">Verilog</a></li>
-<li><a href="/terminology/simulation">Simulate</a> and Formally <a href="/terminology/verification">verify</a> your design</li>
-<li>Use the <a href="/terminology/openlane">OpenLane ASIC flow</a> to create the files necessary for the factory</li>
-<li><a href="/post/multi-project-harness">Aggregate the designs</a> together and submit to the Google/Skywater <a href="/terminology/shuttle">shuttle</a></li>
-<li>Celebrate! (a successful chip is not guaranteed!)</li>
+<li>7 hands-on projects, each with video and text guides.</li>
+<li>6 weeks support via discord server and weekly office hours.</li>
+<li>Asynchronous - do in your own time.</li>
+<li>A PCB will be optionally available to buy with ASIC pre-soldered for you - see <a href="#faq">FAQ</a>.</li>
+<li>High resolution set of digital images of the decapped ASIC - see <a href="#faq">FAQ</a>.</li>
+<li>Course completion certificate.</li>
 </ul>
-<h1 id="format">Format</h1>
+<h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li>12 hours of self guided labs</li>
-<li>support via discord server</li>
-<li>mostly asynchronous - do in your own time</li>
-<li>weekly office hours to discuss progress and problems</li>
-<li>a PCB will be available with ASIC presoldered for you</li>
-<li>a high resolution set of images of the decapped ASIC</li>
+<li>Basic Linux command line experience helpful.</li>
+<li>Some Linux exposure helpful.</li>
 </ul>
-<h1 id="prerequisites">Prerequisites</h1>
+<h2 id="cost">Cost</h2>
+<p>$500.</p>
+<h1 id="part-1-mosfets-and-the-skywater130-standard-cells">Part 1: MOSFETs and the Skywater130 standard cells</h1>
+<p>MOSFETs are the building blocks of the chips we will be learning how to make. While we don’t need an in depth knowledge of how they work, it’s useful to see how they are joined together into functional blocks known as standard cells - for example AND gates or Flip-Flops.</p>
 <ul>
-<li>Basic command line experience helpful</li>
-<li>Some basic electronics experience helpful</li>
-<li>Some Linux exposure helpful</li>
+<li>Basic understanding of how MOSFETs work.</li>
+<li>How are they constructed on a silicon wafer.</li>
+<li>How to run a simulation with ngspice.</li>
 </ul>
-<h1 id="costs">Costs</h1>
+<h2 id="project-11-draw-a-mosfet-in-magic">Project 1.1: Draw a mosfet in magic</h2>
 <ul>
-<li>about $500</li>
+<li>Learn the basics of the Magic VLSI tool.</li>
+<li>Extract the circuit from a drawing.</li>
+<li>Simulate with ngspice.</li>
 </ul>
+<h2 id="project-12-choose-a-standard-cell-and-simulate-it">Project 1.2: Choose a standard cell and simulate it</h2>
+<ul>
+<li>Get an overview of what the standard cells are.</li>
+<li>Choose your fighter!</li>
+<li>Simulate the cell and show it does what it should.</li>
+<li>Measure how fast it can propagate signals from input to output.</li>
+</ul>
+<h1 id="part-2-building-digital-designs">Part 2: Building Digital Designs</h1>
+<p>As we are focussing on digital design for making our ASIC we need to be able to efficiently describe the kind of hardware we want. Verilog is one of a few languages used for this purpose. It’s well supported by the Open Source tools.</p>
+<p>At the same time we will be learning how to run simulations so you can test your designs as you go.</p>
+<p>This part of the course can be done completely with simulation, or you can use an FPGA development board to help you. See <a href="#faq">FAQ</a>.</p>
+<p>The following topics will be covered:</p>
+<ul>
+<li>Designing digital circuits, data flow and control.</li>
+<li>Combinatorial logic.</li>
+<li>Sequential logic.</li>
+<li>Finite state machines.</li>
+<li>Modularity.</li>
+</ul>
+<p>The labs are split up into the following projects, although if you already have some design skills you are free to choose other projects.</p>
+<h2 id="project-21-rgb-colour-mixer">Project 2.1: RGB Colour mixer</h2>
+<ul>
+<li>Build a Digital rotary encoder.</li>
+<li>Build a PWM driver.</li>
+<li>Combine them both to make a 3 channel RGB LED driver.</li>
+</ul>
+<h2 id="project-22-frequency-counter">Project 2.2: Frequency counter</h2>
+<ul>
+<li>Build a 4 digit seven segment driver.</li>
+<li>Debounce a digital input.</li>
+<li>Combine them both with a clock and a register to make a frequency counter.</li>
+</ul>
+<h1 id="part-3-verification">Part 3: Verification</h1>
+<p>We will take a quick look at Formal Verification and see how to use it to prove a digital design is working as desired.</p>
+<ul>
+<li>Bounded model checking.</li>
+<li>Assumptions and assertions.</li>
+<li>How to use the Open Source Formal Verification tools.</li>
+</ul>
+<h2 id="project-31-prove-your-design-is-safe">Project 3.1: prove your design is safe</h2>
+<ul>
+<li>Add a feature to one of your projects so that when reset is active the outputs are low.</li>
+<li>Use formal verification to prove it.</li>
+</ul>
+<h1 id="part-4-openlane">Part 4: OpenLane</h1>
+<p>OpenLANE is an automated set of tools to turn a digital design into the files needed for creating an ASIC. It is automated but it needs to be configured correctly to get usable results. We will cover:</p>
+<ul>
+<li>The different stages of the flow.</li>
+<li>How to interpret results, logs and errors.</li>
+<li>Design Rule Check (DRC)</li>
+<li>Layout vs Schematic (LVS)</li>
+<li>Basic configuration setting.</li>
+</ul>
+<h2 id="project-41-harden-your-design">Project 4.1: harden your design</h2>
+<ul>
+<li>Setup OpenLane on your computer.</li>
+<li>Configure the config file.</li>
+<li>Run the flow.</li>
+<li>Inspect the results and check the design fits within your allotted area.</li>
+</ul>
+<h2 id="part-5-googleskywaterefabless-shuttle">Part 5: Google/Skywater/Efabless shuttle</h2>
+<p>The way to make ASIC fabrication cheaper is to parcel out the wafer into chunks and sell each chunk individually, this is known as a shuttle service or an MPW. Google has sponsored a shuttle service that will be running once every few months during 2021.
+Efabless are providing the intermediary services between the Skywater factory and applicants.</p>
+<p>All applicants need to make use of a wrapper design called Caravel that encloses your own design. This wrapper includes a RISCV CPU, some memory and some peripherals. This can help take some of the burden off your own design as you can make use of existing peripherals.</p>
+<p>We will be combining all the designs together using a special multiplexer harness I have developed. This allows us to put many independent designs into the one application.</p>
+<p>You will learn:</p>
+<ul>
+<li>The component parts of Caravel.</li>
+<li>How big a space there is inside for your designs.</li>
+<li>How to simulate it, including your own design.</li>
+<li>How to fulfil the application process and make your own application should you wish.</li>
+</ul>
+<h2 id="project-51-prepare-a-shuttle-submission-for-your-own-design">Project 5.1: Prepare a Shuttle submission for your own design</h2>
+<ul>
+<li>Integrate your previously hardened project into the Caravel design.</li>
+<li>Make sure it passes pre-check requirements.</li>
+<li>Make the application using efabless’s site.</li>
+</ul>
+<h1 id="faq">FAQ</h1>
+<p>Q. Will I definitely get an ASIC with my design on it?</p>
+<p>No, an ASIC is not guaranteed. To keep the cost of the course reasonable we have to rely on the Google/Skywater free shuttle. The shuttle is currently run as a lottery and while we have a good chance of getting in there is no guarantee. You are able to make your own application separately to the group if you wish.</p>
+<p>If the application doesn’t make it onto the shuttle, then that also means we don’t get the decapped photos.</p>
+<p>Q. How much will the PCB be?</p>
+<p>If we are successful and get on the shuttle, then I will organise mounting and posting a PCB with a sample ASIC to people who want one. This will cost $50 + $15 postage and packing.</p>
+<p>Q. How big can I make my custom project?</p>
+<p>You will have at least 300 x 300 um which is quite a lot of space for a small digital design. If you need bigger then you can separately apply to the Google/Skywater shuttle.</p>
+<p>Q. Can I team up with other course participants and get more space?</p>
+<p>Yes, that’s fine.</p>
+<p>Q. How long does the whole course take to complete?</p>
+<p>It depends on your existing level of experience and how deep you want to go on your own project. I would say between 20 and 100 hours.</p>
+<p>Q. Is there a time limit to complete the course?</p>
+<p>You can take as long as you want with the course materials, but I will only be able to support you on discord or office hours for the 6 week length of the course.</p>
+<p>Q. Do I need an FPGA to develop my design?</p>
+<p>For simple and small designs like the ones I include in the course, you can use simulation to check everything is working fine. If you want to make a more complex project, then it’s probably a good idea to test your design on an FPGA.</p>
+<p>Q. Refunds?</p>
+<p>Attendees can receive refunds up to 7 days before the event start date.</p>
+<p>In the case that there are not enough participants, the course may be cancelled and a full refund given.</p>
 
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
