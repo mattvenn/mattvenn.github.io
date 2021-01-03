@@ -6,7 +6,20 @@
     <description>Recent content on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Dec 2020 18:07:33 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 18:06:26 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview With Diego Hernando</title>
+      <link>https://www.zerotoasic.com/post/interview-with-diego/</link>
+      <pubDate>Sun, 03 Jan 2021 18:06:26 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/post/interview-with-diego/</guid>
+      <description>In this interview I talk with Diego Hernando about their ASIC submission.
+They have been working on some analog blocks; mostly op-amps but also including a PLL from another designer.
+We discuss the difference between digital and analog design, the tools, simulation, layout and testing.
+Here&amp;rsquo;s the link to the repository
+  </description>
+    </item>
+    
     <item>
       <title>ASIC submitted</title>
       <link>https://www.zerotoasic.com/post/asic_submitted/</link>
@@ -535,7 +548,7 @@ For the Zero to ASIC course, I want to aggregate all your designs together into 
       
       <guid>https://www.zerotoasic.com/post/remoticon-talk/</guid>
       <description>I recently presented a demo/presentation for Hackaday&amp;rsquo;s #remoticon.
- talk on twitch slides from the talk presentation tools</description>
+ talk on twitch slides from the talk presentation tools    </description>
     </item>
     
     <item>
@@ -555,7 +568,7 @@ An inverter is one of the simplest and even that was quite difficult! As you can
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.zerotoasic.com/resources/</guid>
-      <description>Talks  0 to ASIC #remoticon talk on twitch and slides FOSSi foundation dialup talks  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  Openlane Magic  Courses  Kunal’s udemy courses  Books  Books: search ‘introduction to VLSI systems’  FPGA  FPGA boards: iCEBreaker, TinyFPGA, Black Ice WTFPGA course  </description>
+      <description>Talks  0 to ASIC #remoticon talk on youtube and slides FOSSi foundation dialup talks  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  Openlane Magic  Courses  Kunal’s udemy courses  Books  Books: search ‘introduction to VLSI systems’  FPGA  FPGA boards: iCEBreaker, TinyFPGA, Black Ice WTFPGA course  </description>
     </item>
     
     <item>

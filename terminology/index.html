@@ -7,7 +7,7 @@
     <title>Terminology | Zero to ASIC</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.79.1" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -52,13 +52,13 @@
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://www.zerotoasic.com/magic.png');">
-    <div class="bg-black-60">
+  <header class="cover bg-top" style="background-image: url('https://www.zerotoasic.com/die-slicing.jpg');">
+    <div class="pb1 pt1 bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
       
-        Zero to ASIC
+        <img src="/zero-to-asic-logo-white-transp.png" class="w100 mw5-ns" alt="Zero to ASIC" />
       
     </a>
     <div class="flex-l items-center">
@@ -113,10 +113,10 @@
   </div>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Terminology
-        </h1>
+      <div class="tc-l pv1 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Terminology</h1>
+          
         
       </div>
     </div>
@@ -126,215 +126,436 @@
     <main class="pb7" role="main">
       
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><p>I&rsquo;ve collected all the ASIC jargon here and broken it down into easy to understand descriptions.</p>
+</section>
     <section class="flex-ns flex-wrap justify-around mt5">
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/floorplan/" class="link black dim">
         Floorplan
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      The floorplanning stage is where OpenLane decides how big an area we need to fit everything in. All the required standard cells are placed in the bottom left corner, ready for the place and route stage.
-All the little rectangles in the centre are called tap cells. They make sure the MOSFETs work correctly by connecting the P doped substrate to ground and the N-wells (that insulate the P-type MOSFETS) to power.
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/node/" class="link black dim">
         Node / Process
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      The metrics for measuring integration density used to be metal half-pitch and gate length. For a while they were about the same number. This number became known as the node or process number.
-The half-pitch refers to half the minimum center-to-center distance spacing (or pitch) between Metal 1 lines.
-By 1990s these numbers became uncoupled, and the 130nm node actually has 70nm gates. By 2000, the node number &ldquo;had by then absolutely no meaning&rdquo; (Paolo Gargini.
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/padring/" class="link black dim">
         Padring
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      We need to make sure we can package the IC after the wafer has been diced into individual dies.
-A common way of packaging ICs is to connect them to a leadframe by bonding tiny wires between the leads of the leadframe and the pads on the die.
-The big bond pads around the outside of the IC often include ESD protection diodes, Input/Output drivers and so on.
-This picture shows raven, an IC from Efabless.
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/fpga/" class="link black dim">
         FPGA
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      An FPGA is quite like an ASIC, but has some major differences.
- Available to buy blank chips cheaply, off-the-shelf Can program your digital design onto them, over and over again Have a very limited set of standard cells - at the least lookup tables, flip-flops, memories. Could include multipliers, memory controllers or other high speed interfaces. No analogue capability Slower than an ASIC  They have a reasonable overlap of the tools required to design for them.
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/cmos/" class="link black dim">
         CMOS
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      https://en.wikipedia.org/wiki/CMOS:
- Complementary Metal Oxide Semiconductor (CMOS) is a type of MOSFET fabrication process that uses complementary and symmetrical pairs of p-type and n-type MOSFETs to build logic functions.
- It is low powered compared to NMOS.
-Here is a CMOS inverter showing the complementary N and P type MOSFETs.
-And here&rsquo;s how it could be laid out using a tool like Magic
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/nmos/" class="link black dim">
         NMOS
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      NMOS refers to building the standard cells we need for building our IC out of only N-type MOSFETs
-Heres how we can build an inverter from only N-type MOSFETS.
-   Input Output     0 1   1 0    If the input is low, the gate is not charged and current doesn&rsquo;t flow through the MOSFET. The resistor pulls up the output to make it high.
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/wlcsp/" class="link black dim">
         WLCSP
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      This package is very small and cheap to produce. It also has benefits due to the lack of bond wires. Bond wires increase parasitic inductance, and can be a problem for high speed designs.
-The downside is that they are very tiny!
-The last 5 layers of the Skywater PDK define the layers necessary to build the WLCSP package.
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/hdl/" class="link black dim">
         HDL
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      A Hardware Description Language is used to&hellip; describe hardware! So instead of drawing out an inverter using a tool like Magic we can write a line like this:
-input = !output;  Which describes what an inverter does. The ! means invert.
-Common HDLs are Verilog and VHDL. There are also higher level languages like nMigen, Migen, chisel, spinal. These are often implemented as a library to a programming language like Python.
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/simulation/" class="link black dim">
         Simulation
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Simulation lets us see the design working. It&rsquo;s useful for debugging while designing and it can also be used to verify that the design is working correctly.
-There are quite a few Open Source simulators available: Icarus Verilog, Verilator and recently CXXRTL.
-We provide our HDL design and a testbench and we get back a data dump of the results of the simulation. The data is usually in the form of a VCD (value change dump).
-    </div>
   </div>
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Terminology</span>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
     <h1 class="f3 near-black">
       <a href="https://www.zerotoasic.com/terminology/foundry/" class="link black dim">
         Foundry
       </a>
     </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Foundry is the fancy semiconductor word for factory. You have to admit, silicon foundry does sound cool.
-From SkyWater&rsquo;s website
- The SkyWater facility was originally established by Minnesota based Control Data Corporation (CDC) in the 1980s. The CDC fab was acquired by Cypress Semiconductor in 1991. During the Cypress era, the facility was expanded and upgraded multiple times, keeping pace with Moore&rsquo;s Law into the late 2000s and was known for being a US-based production facility that was competitive with Asian-based fabs.
-    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/mpw/" class="link black dim">
+        MPW
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/photolithography/" class="link black dim">
+        Photolithography
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/doping/" class="link black dim">
+        Doping
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/wafer/" class="link black dim">
+        Wafer
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/die/" class="link black dim">
+        Die
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/netlist/" class="link black dim">
+        Netlist
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/ic/" class="link black dim">
+        IC
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/vlsi/" class="link black dim">
+        VLSI
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/verification/" class="link black dim">
+        Verification
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/shuttle/" class="link black dim">
+        Google / Skywater Shuttle
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/rtl/" class="link black dim">
+        RTL
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/lvs/" class="link black dim">
+        LVS
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/sta/" class="link black dim">
+        STA
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/place_and_route/" class="link black dim">
+        Place and Route
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/synthesis/" class="link black dim">
+        Synthesis
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/drc/" class="link black dim">
+        DRC
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/gds2/" class="link black dim">
+        GDS2
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/maskset/" class="link black dim">
+        Maskset
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/tapeout/" class="link black dim">
+        Tapeout
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/openlane/" class="link black dim">
+        OpenLane
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/magic/" class="link black dim">
+        Magic
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/spice/" class="link black dim">
+        SPICE
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/mosfet/" class="link black dim">
+        MOSFET
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/pdk/" class="link black dim">
+        PDK
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/standardcell/" class="link black dim">
+        Standard cell
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/asic/" class="link black dim">
+        ASIC
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/macro/" class="link black dim">
+        Macro
+      </a>
+    </h1>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb2 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa3 gray overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="https://www.zerotoasic.com/terminology/harden/" class="link black dim">
+        Harden
+      </a>
+    </h1>
   </div>
 </div>
 </div>
       
     </section>
-<ul class="pagination">
-  <li class="page-item">
-    <a href="/terminology/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-  </li>
-  <li class="page-item disabled">
-    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-  </li>
-  <li class="page-item active">
-    <a class="page-link" href="/terminology/">1</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/terminology/page/2/">2</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/terminology/page/3/">3</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/terminology/page/4/">4</a>
-  </li>
-  <li class="page-item">
-    <a href="/terminology/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/terminology/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-  </li>
-</ul>
-
-</article>
+  </article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.zerotoasic.com/" >
-    &copy;  Zero to ASIC 2020 
+    &copy;  Zero to ASIC 2021 
   </a>
     <div>
 

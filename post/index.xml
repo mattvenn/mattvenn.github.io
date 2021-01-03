@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://www.zerotoasic.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Interview With Diego Hernando</title>
+      <link>https://www.zerotoasic.com/post/interview-with-diego/</link>
+      <pubDate>Sun, 03 Jan 2021 18:06:26 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/post/interview-with-diego/</guid>
+      <description>In this interview I talk with Diego Hernando about their ASIC submission.
+They have been working on some analog blocks; mostly op-amps but also including a PLL from another designer.
+We discuss the difference between digital and analog design, the tools, simulation, layout and testing.
+Here&amp;rsquo;s the link to the repository
+  </description>
+    </item>
+    
+    <item>
       <title>ASIC submitted</title>
       <link>https://www.zerotoasic.com/post/asic_submitted/</link>
       <pubDate>Wed, 23 Dec 2020 18:07:33 +0100</pubDate>
@@ -104,7 +117,7 @@ For the Zero to ASIC course, I want to aggregate all your designs together into 
       
       <guid>https://www.zerotoasic.com/post/remoticon-talk/</guid>
       <description>I recently presented a demo/presentation for Hackaday&amp;rsquo;s #remoticon.
- talk on twitch slides from the talk presentation tools</description>
+ talk on twitch slides from the talk presentation tools    </description>
     </item>
     
     <item>
