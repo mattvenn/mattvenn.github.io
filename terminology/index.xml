@@ -6,7 +6,17 @@
     <description>Recent content in Terminology on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 18:20:59 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jan 2021 11:41:15 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PEX</title>
+      <link>https://www.zerotoasic.com/terminology/pex/</link>
+      <pubDate>Thu, 07 Jan 2021 11:41:15 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/pex/</guid>
+      <description>PEX stands for Parastic Extraction. When we build a circuit on a chip we have an intention in mind, for example an ideal inverter inverts the incoming signal immediately and with no delay.
+The reality is that we have various &amp;lsquo;parasitics&amp;rsquo; for example unwanted capacitance in the MOSFET&amp;rsquo;s gates, or unwanted resistance in the connections between the MOSFETs. These parasitics slow the inverter down. We can extract the parasitics so we can model them and take them into account when building larger circuits.</description>
+    </item>
+    
     <item>
       <title>Floorplan</title>
       <link>https://www.zerotoasic.com/terminology/floorplan/</link>

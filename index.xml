@@ -6,7 +6,17 @@
     <description>Recent content on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jan 2021 18:06:26 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jan 2021 11:41:15 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PEX</title>
+      <link>https://www.zerotoasic.com/terminology/pex/</link>
+      <pubDate>Thu, 07 Jan 2021 11:41:15 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/terminology/pex/</guid>
+      <description>PEX stands for Parastic Extraction. When we build a circuit on a chip we have an intention in mind, for example an ideal inverter inverts the incoming signal immediately and with no delay.
+The reality is that we have various &amp;lsquo;parasitics&amp;rsquo; for example unwanted capacitance in the MOSFET&amp;rsquo;s gates, or unwanted resistance in the connections between the MOSFETs. These parasitics slow the inverter down. We can extract the parasitics so we can model them and take them into account when building larger circuits.</description>
+    </item>
+    
     <item>
       <title>Interview With Diego Hernando</title>
       <link>https://www.zerotoasic.com/post/interview-with-diego/</link>
@@ -568,7 +578,7 @@ An inverter is one of the simplest and even that was quite difficult! As you can
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.zerotoasic.com/resources/</guid>
-      <description>Talks  0 to ASIC #remoticon talk on youtube and slides FOSSi foundation dialup talks  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  Openlane Magic  Courses  Kunal’s udemy courses  Books  Books: search ‘introduction to VLSI systems’  FPGA  FPGA boards: iCEBreaker, TinyFPGA, Black Ice WTFPGA course  </description>
+      <description>Talks  0 to ASIC #remoticon talk on youtube and slides FOSSi foundation dialup talks  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  Openlane Magic  Courses  My course Kunal’s udemy courses  Books  Books: search ‘introduction to VLSI systems’  FPGA  FPGA boards: iCEBreaker, TinyFPGA, Black Ice WTFPGA course  </description>
     </item>
     
     <item>
