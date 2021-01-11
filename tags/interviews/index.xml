@@ -6,7 +6,30 @@
     <description>Recent content in interviews on Zero to ASIC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jan 2021 18:06:26 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 16:08:53 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview with Tim Edwards - what happens between ASIC submission and sending to Skywater?</title>
+      <link>https://www.zerotoasic.com/post/interview-with-tim-edwards/</link>
+      <pubDate>Sun, 10 Jan 2021 16:08:53 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/post/interview-with-tim-edwards/</guid>
+      <description>In this interview I talk with Tim Edwards from eFabless. He is their vice president of analog and platform.
+We mostly talked about what needs to happen before they send the final files to Skywater.
+A lot of the work is infrastructure:
+ fetching files, compositing IDs, generating fill layers, a final DRC run.    </description>
+    </item>
+    
+    <item>
+      <title>Interview with Lakshmi S - PLL design</title>
+      <link>https://www.zerotoasic.com/post/interview-with-lakshmi/</link>
+      <pubDate>Tue, 05 Jan 2021 16:08:53 +0100</pubDate>
+      
+      <guid>https://www.zerotoasic.com/post/interview-with-lakshmi/</guid>
+      <description>In this interview I talk with Lakshmi S about their shuttle submission.
+As well as convering what a PLL is and its component parts, we also answered some interesting questions from the twitter community:
+ how long things take to design, what is fun and what is frustrating, how to change the PLL&amp;rsquo;s response, why design a integrated loop filter, process corners and ngspice post silicon testing.  The repository is here.</description>
+    </item>
+    
     <item>
       <title>Interview With Diego Hernando</title>
       <link>https://www.zerotoasic.com/post/interview-with-diego/</link>
