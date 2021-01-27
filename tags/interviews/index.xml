@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>interviews on Zero to ASIC</title>
-    <link>https://www.zerotoasic.com/tags/interviews/</link>
-    <description>Recent content in interviews on Zero to ASIC</description>
+    <title>interviews on Zero to ASIC Course</title>
+    <link>https://www.zerotoasiccourse.com/tags/interviews/</link>
+    <description>Recent content in interviews on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2021 16:08:53 +0100</lastBuildDate><atom:link href="https://www.zerotoasic.com/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 16:08:53 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interview with Tim Edwards - what happens between ASIC submission and sending to Skywater?</title>
-      <link>https://www.zerotoasic.com/post/interview-with-tim-edwards/</link>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-tim-edwards/</link>
       <pubDate>Sun, 10 Jan 2021 16:08:53 +0100</pubDate>
       
-      <guid>https://www.zerotoasic.com/post/interview-with-tim-edwards/</guid>
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-tim-edwards/</guid>
       <description>In this interview I talk with Tim Edwards from eFabless. He is their vice president of analog and platform.
 We mostly talked about what needs to happen before they send the final files to Skywater.
 A lot of the work is infrastructure:
@@ -21,10 +21,10 @@ A lot of the work is infrastructure:
     
     <item>
       <title>Interview with Lakshmi S - PLL design</title>
-      <link>https://www.zerotoasic.com/post/interview-with-lakshmi/</link>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-lakshmi/</link>
       <pubDate>Tue, 05 Jan 2021 16:08:53 +0100</pubDate>
       
-      <guid>https://www.zerotoasic.com/post/interview-with-lakshmi/</guid>
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-lakshmi/</guid>
       <description>In this interview I talk with Lakshmi S about their shuttle submission.
 As well as convering what a PLL is and its component parts, we also answered some interesting questions from the twitter community:
  how long things take to design, what is fun and what is frustrating, how to change the PLL&amp;rsquo;s response, why design a integrated loop filter, process corners and ngspice post silicon testing.  The repository is here.</description>
@@ -32,10 +32,10 @@ As well as convering what a PLL is and its component parts, we also answered som
     
     <item>
       <title>Interview With Diego Hernando</title>
-      <link>https://www.zerotoasic.com/post/interview-with-diego/</link>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-diego/</link>
       <pubDate>Sun, 03 Jan 2021 18:06:26 +0100</pubDate>
       
-      <guid>https://www.zerotoasic.com/post/interview-with-diego/</guid>
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-diego/</guid>
       <description>In this interview I talk with Diego Hernando about their ASIC submission.
 They have been working on some analog blocks; mostly op-amps but also including a PLL from another designer.
 We discuss the difference between digital and analog design, the tools, simulation, layout and testing.
@@ -45,10 +45,10 @@ Here&amp;rsquo;s the link to the repository
     
     <item>
       <title>Interview with Arya Reais-Parsi - FPGA fabric</title>
-      <link>https://www.zerotoasic.com/post/interview-with-arya/</link>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-arya/</link>
       <pubDate>Sat, 05 Dec 2020 16:08:53 +0100</pubDate>
       
-      <guid>https://www.zerotoasic.com/post/interview-with-arya/</guid>
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-arya/</guid>
       <description>In this interview I talk with Arya Reais-Parsi about their shuttle submission. They are working with a group of students to create Open Source FPGA fabric that can be put on an ASIC and configured with yosys/nextpnr.
 The repository is here.
   </description>
@@ -56,10 +56,10 @@ The repository is here.
     
     <item>
       <title>Interview With Sylvain &#39;tnt&#39; Munaut: USB peripherals</title>
-      <link>https://www.zerotoasic.com/post/interview-with-tnt/</link>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-tnt/</link>
       <pubDate>Sat, 05 Dec 2020 16:08:53 +0100</pubDate>
       
-      <guid>https://www.zerotoasic.com/post/interview-with-tnt/</guid>
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-tnt/</guid>
       <description>In this interview I talk with Sylvain &amp;lsquo;tnt&amp;rsquo; Munaut about his Google/Skywater ASIC application.
 The design is especially interesting to me because of the way it merges the SRAM blocks with the logic. This has been a major challenge in my own design.
 Here&amp;rsquo;s the link to the repository
@@ -68,10 +68,10 @@ Here&amp;rsquo;s the link to the repository
     
     <item>
       <title>Interview With Vladimir Milovanović - spectrometer with Chisel</title>
-      <link>https://www.zerotoasic.com/post/interview-with-vladimir/</link>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-vladimir/</link>
       <pubDate>Sat, 05 Dec 2020 16:08:53 +0100</pubDate>
       
-      <guid>https://www.zerotoasic.com/post/interview-with-vladimir/</guid>
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-vladimir/</guid>
       <description>In this interview I talk with Vladimir Milovanović about putting a spectrometer on the Google/Skywater/Efabless ASIC shuttle.
 He created the design using Chisel.
 The repository is here.
