@@ -6,7 +6,18 @@
     <description>Recent content in videos on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2021 16:08:53 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/tags/videos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 18:47:01 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/tags/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Last minute DRC fixes</title>
+      <link>https://www.zerotoasiccourse.com/post/last_minute_drc/</link>
+      <pubDate>Sun, 07 Feb 2021 18:47:01 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/last_minute_drc/</guid>
+      <description>The story of the first Open Source ASIC shuttle continues!
+A few of the applicants to the first shuttle were recently contacted by efabless - they had discovered some DRC issues that couldn&amp;rsquo;t be waived by the foundry.
+In my recent interview with Tim Edwards, he mentioned that Google are paying for a license of Calibre - another swiss army ASIC tool like Magic. This is to help make sure that the OpenLANE DRC hasn&amp;rsquo;t missed anything.</description>
+    </item>
+    
     <item>
       <title>Interview with Tim Edwards - what happens between ASIC submission and sending to Skywater?</title>
       <link>https://www.zerotoasiccourse.com/post/interview-with-tim-edwards/</link>

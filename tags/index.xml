@@ -6,22 +6,31 @@
     <description>Recent content in Tags on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2021 16:08:53 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 18:47:01 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>interviews</title>
-      <link>https://www.zerotoasiccourse.com/tags/interviews/</link>
-      <pubDate>Sun, 10 Jan 2021 16:08:53 +0100</pubDate>
+      <title>updates</title>
+      <link>https://www.zerotoasiccourse.com/tags/updates/</link>
+      <pubDate>Sun, 07 Feb 2021 18:47:01 +0100</pubDate>
       
-      <guid>https://www.zerotoasiccourse.com/tags/interviews/</guid>
+      <guid>https://www.zerotoasiccourse.com/tags/updates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>videos</title>
       <link>https://www.zerotoasiccourse.com/tags/videos/</link>
-      <pubDate>Sun, 10 Jan 2021 16:08:53 +0100</pubDate>
+      <pubDate>Sun, 07 Feb 2021 18:47:01 +0100</pubDate>
       
       <guid>https://www.zerotoasiccourse.com/tags/videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interviews</title>
+      <link>https://www.zerotoasiccourse.com/tags/interviews/</link>
+      <pubDate>Sun, 10 Jan 2021 16:08:53 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/tags/interviews/</guid>
       <description></description>
     </item>
     
