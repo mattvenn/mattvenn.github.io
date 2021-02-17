@@ -63,17 +63,6 @@ If you have a counter design written in an HDL like Verilog
 module counter (clk, rst, en, count); input clk, rst, en; output reg [3:0] count; always @(posedge clk) if (rst) count &lt;= 4&#39;d0; else if (en) count &lt;= count &#43; 4&#39;d1; endmodule  The output netlist can be visualised like this:"/>
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-2HQ02ESFZB', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
     
 	
   </head>
@@ -273,6 +262,15 @@ The synthesis process is the first step in the <a href="/terminology/openlane">O
 </footer>
 
     
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2HQ02ESFZB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2HQ02ESFZB');
+</script>
+
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
 
