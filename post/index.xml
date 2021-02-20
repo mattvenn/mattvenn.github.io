@@ -8,16 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Understanding Caravel GPIO</title>
-      <link>https://www.zerotoasiccourse.com/post/understanding_caravel_gpio/</link>
-      <pubDate>Mon, 15 Feb 2021 13:36:29 +0100</pubDate>
-      
-      <guid>https://www.zerotoasiccourse.com/post/understanding_caravel_gpio/</guid>
-      <description>When I was first testing my designs inside Caravel, I was quite confused about all the GPIO options.
- Each pin has a range of options that can be configured by firmware running on the RISCV processor. Each pin can be driven from the processor or your custom design. The outputs have separate output enable lines for bi-directional signalling.  I put together an experiment where I tried the most important options and checked the results in a simulation.</description>
-    </item>
-    
-    <item>
       <title>Last minute DRC fixes</title>
       <link>https://www.zerotoasiccourse.com/post/last_minute_drc/</link>
       <pubDate>Sun, 07 Feb 2021 18:47:01 +0100</pubDate>

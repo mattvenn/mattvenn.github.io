@@ -6,17 +6,7 @@
     <description>Recent content on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Feb 2021 13:36:29 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Understanding Caravel GPIO</title>
-      <link>https://www.zerotoasiccourse.com/post/understanding_caravel_gpio/</link>
-      <pubDate>Mon, 15 Feb 2021 13:36:29 +0100</pubDate>
-      
-      <guid>https://www.zerotoasiccourse.com/post/understanding_caravel_gpio/</guid>
-      <description>When I was first testing my designs inside Caravel, I was quite confused about all the GPIO options.
- Each pin has a range of options that can be configured by firmware running on the RISCV processor. Each pin can be driven from the processor or your custom design. The outputs have separate output enable lines for bi-directional signalling.  I put together an experiment where I tried the most important options and checked the results in a simulation.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 07 Feb 2021 18:59:34 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PDN</title>
       <link>https://www.zerotoasiccourse.com/terminology/pdn/</link>
