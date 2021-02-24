@@ -6,7 +6,18 @@
     <description>Recent content on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Feb 2021 13:36:29 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 16:46:34 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Printing my first ASIC&#39;s GDS files</title>
+      <link>https://www.zerotoasiccourse.com/post/printing_gds/</link>
+      <pubDate>Wed, 24 Feb 2021 16:46:34 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/printing_gds/</guid>
+      <description>I&amp;rsquo;ve been wanting to try plotting or printing the GDS files from my first ASIC for a while, and finally I&amp;rsquo;ve had some time to have a play. I used KLayout because it&amp;rsquo;s easy to change colours, show and hide layers, and export to a high resolution PNG.
+I want to make a poster with 3 pictures inside:
+ The whole chip, Zoomed into the VGA clock macro, Zoomed into the standard cells.</description>
+    </item>
+    
     <item>
       <title>Understanding Caravel GPIO</title>
       <link>https://www.zerotoasiccourse.com/post/understanding_caravel_gpio/</link>
