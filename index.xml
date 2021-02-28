@@ -6,7 +6,34 @@
     <description>Recent content on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Feb 2021 16:46:34 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 14:57:29 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image Attribution</title>
+      <link>https://www.zerotoasiccourse.com/post/image_attribution/</link>
+      <pubDate>Sun, 28 Feb 2021 14:57:29 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/image_attribution/</guid>
+      <description>Image from Mohamed Shalan
+Image from Caravel Datasheet
+Image from RFCafe
+Image from Caravel Datasheet
+Image from Wikipedia
+Image from Components 101
+Image from Wikipedia
+Image from WhaTech
+Image from Technocrazed
+Image from Zeptobars
+Image from Lattice Semiconductor
+Image from Lattice Semiconductor
+Image from M. Rovitto
+Image from Texplained
+Image from Wikimedia
+Image from Europractice
+Image from VLSI Systems by Mead &amp;amp; Conway
+Image from der8auer youtube channel
+Image from OpenLANE docs</description>
+    </item>
+    
     <item>
       <title>Printing my first ASIC&#39;s GDS files</title>
       <link>https://www.zerotoasiccourse.com/post/printing_gds/</link>
