@@ -13,9 +13,8 @@
       <pubDate>Wed, 10 Mar 2021 11:36:30 +0100</pubDate>
       
       <guid>https://www.zerotoasiccourse.com/post/my_zero_to_asic_journey/</guid>
-      <description>In March 2020 I started getting interested in Open Source ASIC tooling. I don&amp;rsquo;t remember exactly what sparked my interest, but I remember this talk by Tim Edwards at WOSH: Bootstrapping a real working design flow and sometime after seeing Adam Zeloof posting a picture of an ASIC implementation of pong.
-I began by investigating QFlow. The standard cells used by QFlow were from Oklahoma State University (OSU).
-By May I was getting a few results out of QFlow and I was curious to discover how digital logic actually works on silicon.</description>
+      <description>Almost exactly a year ago in March 2020 I started getting interested in Open Source ASIC tooling. I don&amp;rsquo;t remember exactly what sparked my interest, but I remember this talk by Tim Edwards at WOSH: Bootstrapping a real working design flow and sometime after seeing Adam Zeloof posting a picture of an ASIC implementation of pong.
+I began by investigating QFlow. The standard cells used by QFlow were from Oklahoma State University (OSU).</description>
     </item>
     
     <item>
