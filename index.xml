@@ -6,7 +6,17 @@
     <description>Recent content on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Feb 2021 16:46:34 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Mar 2021 11:36:30 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Zero to ASIC journey</title>
+      <link>https://www.zerotoasiccourse.com/post/my_zero_to_asic_journey/</link>
+      <pubDate>Wed, 10 Mar 2021 11:36:30 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/my_zero_to_asic_journey/</guid>
+      <description>In March 2020 I started getting interested in Open Source ASIC tooling. I don&amp;rsquo;t remember exactly what sparked my interest, but I remember this talk by Tim Edwards at WOSH: Bootstrapping a real working design flow and sometime after seeing Adam Zeloof posting a picture of an ASIC implementation of pong.
+So I started off by investigating QFlow. The standard cells used by QFlow were from Oklahoma State University (OSU).</description>
+    </item>
+    
     <item>
       <title>Printing my first ASIC&#39;s GDS files</title>
       <link>https://www.zerotoasiccourse.com/post/printing_gds/</link>
