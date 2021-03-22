@@ -6,15 +6,26 @@
     <description>Recent content on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Mar 2021 11:36:30 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Mar 2021 16:59:20 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corner</title>
+      <link>https://www.zerotoasiccourse.com/terminology/corner/</link>
+      <pubDate>Mon, 22 Mar 2021 16:59:20 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/terminology/corner/</guid>
+      <description>MOSFET characteristics can vary across multiple wafers.
+If we wanted to make sure a sensitive analogue design worked across all process variations, we would want to simulate these variations and check the results were still within our specification.
+Some of the most common variations affect the strength or speed of the MOSFET switching, and we have both P and N type MOSFETS. The corners represent the most extreme variations of these parameters.</description>
+    </item>
+    
     <item>
       <title>My Zero to ASIC journey</title>
       <link>https://www.zerotoasiccourse.com/post/my_zero_to_asic_journey/</link>
       <pubDate>Wed, 10 Mar 2021 11:36:30 +0100</pubDate>
       
       <guid>https://www.zerotoasiccourse.com/post/my_zero_to_asic_journey/</guid>
-      <description>In March 2020 I started getting interested in Open Source ASIC tooling. I don&amp;rsquo;t remember exactly what sparked my interest, but I remember this talk by Tim Edwards at WOSH: Bootstrapping a real working design flow and sometime after seeing Adam Zeloof posting a picture of an ASIC implementation of pong.
-So I started off by investigating QFlow. The standard cells used by QFlow were from Oklahoma State University (OSU).</description>
+      <description>Almost exactly a year ago in March 2020 I started getting interested in Open Source ASIC tooling. I don&amp;rsquo;t remember exactly what sparked my interest, but I remember this talk by Tim Edwards at WOSH: Bootstrapping a real working design flow and sometime after seeing Adam Zeloof posting a picture of an ASIC implementation of pong.
+I began by investigating QFlow. The standard cells used by QFlow were from Oklahoma State University (OSU).</description>
     </item>
     
     <item>
