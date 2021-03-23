@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>interviews on Zero to ASIC Course</title>
+    <title>Interviews on Zero to ASIC Course</title>
     <link>https://www.zerotoasiccourse.com/tags/interviews/</link>
-    <description>Recent content in interviews on Zero to ASIC Course</description>
+    <description>Recent content in Interviews on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2021 16:08:53 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 15:21:28 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview With Thomas Parry - Amateur satellite radio, Open Source vs Industry tools and beautiful analogue layout</title>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-thomas-parry/</link>
+      <pubDate>Tue, 23 Mar 2021 16:09:22 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-thomas-parry/</guid>
+      <description>In this interview Thomas talks us through his Amateur satellite transceiver shuttle submission. We also discuss the differences between the Open Source tools and the industry standard ones he uses in his day job.
+   Design repo: https://github.com/yrrapt/amsat_txrx_ic Caravel repo: https://github.com/yrrapt/caravel_amsat_txrx_ic Connect with Thomas on linkedin: https://www.linkedin.com/in/thomas-parry-60419468/  </description>
+    </item>
+    
     <item>
       <title>Interview with Tim Edwards - what happens between ASIC submission and sending to Skywater?</title>
       <link>https://www.zerotoasiccourse.com/post/interview-with-tim-edwards/</link>

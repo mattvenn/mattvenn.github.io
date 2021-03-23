@@ -6,7 +6,17 @@
     <description>Recent content on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Mar 2021 16:59:20 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 16:09:22 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview With Thomas Parry - Amateur satellite radio, Open Source vs Industry tools and beautiful analogue layout</title>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-thomas-parry/</link>
+      <pubDate>Tue, 23 Mar 2021 16:09:22 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-thomas-parry/</guid>
+      <description>In this interview Thomas talks us through his Amateur satellite transceiver shuttle submission. We also discuss the differences between the Open Source tools and the industry standard ones he uses in his day job.
+   Design repo: https://github.com/yrrapt/amsat_txrx_ic Caravel repo: https://github.com/yrrapt/caravel_amsat_txrx_ic Connect with Thomas on linkedin: https://www.linkedin.com/in/thomas-parry-60419468/  </description>
+    </item>
+    
     <item>
       <title>Corner</title>
       <link>https://www.zerotoasiccourse.com/terminology/corner/</link>
