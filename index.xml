@@ -296,7 +296,7 @@ The last 5 layers of the Skywater PDK define the layers necessary to build the W
       
       <guid>https://www.zerotoasiccourse.com/terminology/hdl/</guid>
       <description>A Hardware Description Language is used to&amp;hellip; describe hardware! So instead of drawing out an inverter using a tool like Magic we can write a line like this:
-input = !output;  Which describes what an inverter does. The ! means invert.
+output = !input;  Which describes what an inverter does. The ! means invert.
 Common HDLs are Verilog and VHDL. There are also higher level languages like nMigen, Migen, chisel, spinal. These are often implemented as a library to a programming language like Python.</description>
     </item>
     
@@ -691,7 +691,7 @@ An inverter is one of the simplest and even that was quite difficult! As you can
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.zerotoasiccourse.com/resources/</guid>
-      <description>Talks  0 to ASIC #remoticon talk on youtube and slides FOSSi foundation dialup talks  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  Openlane Magic  Courses  My course Kunal’s udemy courses  Books  Books: search ‘introduction to VLSI systems’  FPGA  FPGA boards: iCEBreaker, TinyFPGA, Black Ice WTFPGA course  </description>
+      <description>My Talks  0 to ASIC #remoticon talk on youtube and slides Zero to ASIC emBO++ talk slides  FOSSi Dialup  FOSSi foundation dialup talks  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  Openlane Magic  Courses  My course Kunal’s udemy courses  Books  Books: search ‘introduction to VLSI systems’  FPGA  FPGA boards: iCEBreaker, TinyFPGA, Black Ice WTFPGA course  </description>
     </item>
     
     <item>
@@ -701,7 +701,7 @@ An inverter is one of the simplest and even that was quite difficult! As you can
       
       <guid>https://www.zerotoasiccourse.com/contact/</guid>
       <description>Sign up to the newsletter to keep up to date with all things Zero to ASIC and to get alerted when new tickets are released.
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}  Express your interest in this course      0 to ASIC course   Design and fabricate your own ASIC! Thanks to the new Open Source Process Development Kit from Google and Skywater along with the latest Open Source ASIC tools from Efabless.</description>
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}  Express your interest in this course      Zero to ASIC course   Design and fabricate your own ASIC! Thanks to the new Open Source Process Development Kit from Google and Skywater along with the latest Open Source ASIC tools from Efabless.</description>
     </item>
     
   </channel>
