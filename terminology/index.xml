@@ -6,7 +6,19 @@
     <description>Recent content in Terminology on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Mar 2021 16:59:20 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 12:31:35 +0200</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antenna Report</title>
+      <link>https://www.zerotoasiccourse.com/terminology/antenna-report/</link>
+      <pubDate>Tue, 30 Mar 2021 12:31:35 +0200</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/terminology/antenna-report/</guid>
+      <description>Antenna rules are part of the DRC.
+When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first. Then we use the metal layers to connect them into bigger blocks. Between layers, the wafer is often flattened. This process can induce enough electrical charge to destroy the connected gate.
+After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/antenna.rpt
+The antenna report is a long collection of smaller reports like this:</description>
+    </item>
+    
     <item>
       <title>Corner</title>
       <link>https://www.zerotoasiccourse.com/terminology/corner/</link>
@@ -331,8 +343,7 @@ yosys is the Open Source tool that has been crucial in enabling the Open Source 
       <guid>https://www.zerotoasiccourse.com/terminology/drc/</guid>
       <description>The Design Rule Check is part of the PDK. Both the Magic and OpenLane tools make use of it.
 It contains rules that check things like:
- The gate of the MOSFET are the correct length Wires on the metal layers are not too narrow and not too close Check that MOSFET gates are protected if they have long connecting wires.  This last rule is my favourite.
-When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first.</description>
+ The gate of the MOSFET are the correct dimensions, Wires on the metal layers are not too narrow and not too close, Check that MOSFET gates are protected if they have long connecting wires - this is called an antenna rule.  There are a few thousand rules in the Skywater130 PDK DRC.</description>
     </item>
     
     <item>

@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>DRC | Zero to ASIC Course</title>
+    <title>Antenna Report | Zero to ASIC Course</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="The Design Rule Check is part of the PDK. Both the Magic and OpenLane tools make use of it.
-It contains rules that check things like:
- The gate of the MOSFET are the correct dimensions, Wires on the metal layers are not too narrow and not too close, Check that MOSFET gates are protected if they have long connecting wires - this is called an antenna rule.  There are a few thousand rules in the Skywater130 PDK DRC.">
+    <meta name="description" content="Antenna rules are part of the DRC.
+When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first. Then we use the metal layers to connect them into bigger blocks. Between layers, the wafer is often flattened. This process can induce enough electrical charge to destroy the connected gate.
+After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/antenna.rpt
+The antenna report is a long collection of smaller reports like this:">
     <meta name="generator" content="Hugo 0.80.0" />
     
     
@@ -31,30 +32,33 @@ It contains rules that check things like:
 
     
     
-    <meta property="og:title" content="DRC" />
-<meta property="og:description" content="The Design Rule Check is part of the PDK. Both the Magic and OpenLane tools make use of it.
-It contains rules that check things like:
- The gate of the MOSFET are the correct dimensions, Wires on the metal layers are not too narrow and not too close, Check that MOSFET gates are protected if they have long connecting wires - this is called an antenna rule.  There are a few thousand rules in the Skywater130 PDK DRC." />
+    <meta property="og:title" content="Antenna Report" />
+<meta property="og:description" content="Antenna rules are part of the DRC.
+When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first. Then we use the metal layers to connect them into bigger blocks. Between layers, the wafer is often flattened. This process can induce enough electrical charge to destroy the connected gate.
+After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/antenna.rpt
+The antenna report is a long collection of smaller reports like this:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.zerotoasiccourse.com/terminology/drc/" />
-<meta property="article:published_time" content="2020-11-12T17:42:51+01:00" />
-<meta property="article:modified_time" content="2020-11-12T17:42:51+01:00" />
-<meta itemprop="name" content="DRC">
-<meta itemprop="description" content="The Design Rule Check is part of the PDK. Both the Magic and OpenLane tools make use of it.
-It contains rules that check things like:
- The gate of the MOSFET are the correct dimensions, Wires on the metal layers are not too narrow and not too close, Check that MOSFET gates are protected if they have long connecting wires - this is called an antenna rule.  There are a few thousand rules in the Skywater130 PDK DRC.">
-<meta itemprop="datePublished" content="2020-11-12T17:42:51+01:00" />
-<meta itemprop="dateModified" content="2020-11-12T17:42:51+01:00" />
-<meta itemprop="wordCount" content="107">
+<meta property="og:url" content="https://www.zerotoasiccourse.com/terminology/antenna-report/" />
+<meta property="article:published_time" content="2021-03-30T12:31:35+02:00" />
+<meta property="article:modified_time" content="2021-03-30T12:31:35+02:00" />
+<meta itemprop="name" content="Antenna Report">
+<meta itemprop="description" content="Antenna rules are part of the DRC.
+When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first. Then we use the metal layers to connect them into bigger blocks. Between layers, the wafer is often flattened. This process can induce enough electrical charge to destroy the connected gate.
+After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/antenna.rpt
+The antenna report is a long collection of smaller reports like this:">
+<meta itemprop="datePublished" content="2021-03-30T12:31:35+02:00" />
+<meta itemprop="dateModified" content="2021-03-30T12:31:35+02:00" />
+<meta itemprop="wordCount" content="405">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="DRC"/>
-<meta name="twitter:description" content="The Design Rule Check is part of the PDK. Both the Magic and OpenLane tools make use of it.
-It contains rules that check things like:
- The gate of the MOSFET are the correct dimensions, Wires on the metal layers are not too narrow and not too close, Check that MOSFET gates are protected if they have long connecting wires - this is called an antenna rule.  There are a few thousand rules in the Skywater130 PDK DRC."/>
+<meta name="twitter:title" content="Antenna Report"/>
+<meta name="twitter:description" content="Antenna rules are part of the DRC.
+When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first. Then we use the metal layers to connect them into bigger blocks. Between layers, the wafer is often flattened. This process can induce enough electrical charge to destroy the connected gate.
+After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/antenna.rpt
+The antenna report is a long collection of smaller reports like this:"/>
 
       
     
@@ -138,7 +142,7 @@ It contains rules that check things like:
 
       <div class="tc-l pv1 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">DRC</h1> 
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Antenna Report</h1> 
           
         
       </div>
@@ -164,20 +168,20 @@ It contains rules that check things like:
   <div id="sharing" class="mt3">
 
     
-    <a href="https://www.facebook.com/sharer.php?u=https://www.zerotoasiccourse.com/terminology/drc/" class="facebook no-underline" aria-label="share on Facebook">
+    <a href="https://www.facebook.com/sharer.php?u=https://www.zerotoasiccourse.com/terminology/antenna-report/" class="facebook no-underline" aria-label="share on Facebook">
       <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
 
     </a>
 
     
     
-    <a href="https://twitter.com/share?url=https://www.zerotoasiccourse.com/terminology/drc/&amp;text=DRC" class="twitter no-underline" aria-label="share on Twitter">
+    <a href="https://twitter.com/share?url=https://www.zerotoasiccourse.com/terminology/antenna-report/&amp;text=Antenna%20Report" class="twitter no-underline" aria-label="share on Twitter">
       <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
 
     </a>
 
     
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.zerotoasiccourse.com/terminology/drc/&amp;title=DRC" class="linkedin no-underline" aria-label="share on LinkedIn">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.zerotoasiccourse.com/terminology/antenna-report/&amp;title=Antenna%20Report" class="linkedin no-underline" aria-label="share on LinkedIn">
       <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
 </svg>
@@ -186,23 +190,66 @@ It contains rules that check things like:
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">DRC</h1>
+      <h1 class="f1 athelas mt3 mb1">Antenna Report</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2020-11-12T17:42:51+01:00">November 12, 2020</time>
+      <time class="f6 mv4 dib tracked" datetime="2021-03-30T12:31:35+02:00">March 30, 2021</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The Design Rule Check is part of the <a href="/terminology/pdk">PDK</a>. Both the <a href="/terminology/magic">Magic</a> and <a href="/terminology/openlane">OpenLane</a> tools make use of it.</p>
-<p>It contains rules that check things like:</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Antenna rules are part of the <a href="/terminology/drc">DRC</a>.</p>
+<p><img src="/antenna-rule.png" alt="antenna rule"></p>
+<p>When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first. Then we use the metal layers to connect them into bigger blocks.
+Between layers, the <a href="/terminology/wafer">wafer</a> is often flattened. This process can induce enough electrical charge to destroy the connected gate.</p>
+<p>After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/antenna.rpt</p>
+<p>The antenna report is a long collection of smaller reports like this:</p>
+<pre><code>Net - active
+  _1235_  (sky130_fd_sc_hd__inv_2)  A
+[1]  met2:
+  PAR:    2.49  Ratio:    0.00       (Area)
+  PAR:   12.66  Ratio:  400.00       (S.Area)
+  CAR:    2.82  Ratio:    0.00       (C.Area)
+  CAR:   14.39  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.30  Ratio:    0.00       (Area)
+  PAR:    1.70  Ratio:  400.00       (S.Area)
+  CAR:    0.33  Ratio:    0.00       (C.Area)
+  CAR:    1.73  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.03  Ratio:    0.00       (Area)
+  PAR:    0.03  Ratio:   75.00       (S.Area)
+  CAR:    0.03  Ratio:    0.00       (C.Area)
+  CAR:    0.03  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.05  Ratio:    6.00       (Area)
+  CAR:    0.10  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR_MR:
+  PAR:    0.06  Ratio:    3.00       (Area)
+  CAR:    0.06  Ratio:    0.00       (C.Area)
+</code></pre>
+<p>We have the name of the net, in this case &lsquo;active&rsquo;.
+Then 5 subsections related to the layers of the chips that each have a PAR or CAR value on the left and a ratio on the right.
+PAR and CAR refer to Partial or Cumulative Antenna Ratio.</p>
+<p>From <a href="http://free-online-ebooks.appspot.com/enc/14.17/lefdefref/PAE.html">this reference</a>:</p>
 <ul>
-<li>The gate of the <a href="/terminology/mosfet">MOSFET</a> are the correct dimensions,</li>
-<li>Wires on the metal layers are not too narrow and not too close,</li>
-<li>Check that MOSFET gates are protected if they have long connecting wires - this is called an <a href="/terminology/antenna-report">antenna rule</a>.</li>
+<li>A PAR tells you if any single metallization step is likely to inflict damage to a gate.</li>
+<li>A CAR adds the damages on successive layers together to accumulate them as the layers are built up.</li>
 </ul>
-<p>There are a few thousand rules in the Skywater130 PDK DRC. As the <a href="/terminology/node">process/node</a> gets smaller, the number of rules increases.</p>
-<p>You can find out more about the DRC checks performed by OpenLANE in <a href="https://www.youtube.com/watch?v=Vhyv0eq_mLU">Mohamed Shalan&rsquo;s OpenLane FOSSI dialup presentation</a></p>
+<p>If the value exceeds the ratio then it&rsquo;s a violation. However, most violations are not worth fixing unless they exceed the ratio by 2x.
+For small runs we don&rsquo;t care too much if we have antenna rule violations because the failures caused by antennas is statistical. Maybe a few
+chips of the 100 we get from the shuttle would be affected.
+We can improve yield by making sure the antenna ratios are lower than the threshold given by the foundry.</p>
+<p>Violating values are marked with *. So you can search for that in the report to find the violating values and nets.</p>
+<p>OpenLANE automatically inserts antenna diode cells to protect nets.
+One way to try to reduce antenna violations is to try a different insertion strategy. This configuration variable is called</p>
+<pre><code>DIODE_INSERTION_STRATEGY
+</code></pre>
+<p>You can find the definition here in the <a href="https://openlane-docs.readthedocs.io/en/rtd-develop/configuration/README.html">OpenLANE docs</a>.</p>
 <ul class="pa0">
   
 </ul>
