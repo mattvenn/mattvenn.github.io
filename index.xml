@@ -6,7 +6,19 @@
     <description>Recent content on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Mar 2021 12:31:35 +0200</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Apr 2021 13:06:58 +0200</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenLANE Output Files</title>
+      <link>https://www.zerotoasiccourse.com/post/openlane_output_files/</link>
+      <pubDate>Fri, 16 Apr 2021 13:06:58 +0200</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/openlane_output_files/</guid>
+      <description>OpenLANE makes a lot of output files! This can be quite confusing when you&amp;rsquo;re getting started.
+Here&amp;rsquo;s a useful spreadsheet I made to show:
+ the path of the files most important files and what they mean which tool creates which file  Thanks Amr and Ahmed for helping me with this!
+Note that newer versions of OpenLANE have started numbering the filenames so I will update the spreadsheet in the future to reflect this.</description>
+    </item>
+    
     <item>
       <title>Antenna Report</title>
       <link>https://www.zerotoasiccourse.com/terminology/antenna-report/</link>
