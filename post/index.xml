@@ -8,6 +8,27 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>MPW2</title>
+      <link>https://www.zerotoasiccourse.com/post/mpw2/</link>
+      <pubDate>Wed, 19 May 2021 13:15:24 +0200</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/mpw2/</guid>
+      <description>Efabless have announced MPW2! The closing date is the 18th of June.
+The biggest changes are:
+ OpenLANE ASIC flow updated to rc0.15 Caravel has become caravel_user_project at the mpw-two-c tag:  smaller repo size includes a &amp;lsquo;Caravel Lite&amp;rsquo; submodule new IRQ ports logic analyser registers renamed   The submission process has been streamlined to make it faster and easier to submit  You can browse the current applications here: https://efabless.</description>
+    </item>
+    
+    <item>
+      <title>Interview With Dan Rodrigues - first shuttle, racing the beam &amp; retro gaming</title>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/</link>
+      <pubDate>Wed, 05 May 2021 16:09:22 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/</guid>
+      <description>In this interview Dan and I talk about his submission to the first shuttle, simulating video projects, how to do graphics with no frame buffer and the joys of retro gaming.
+   Caravel repo: https://github.com/dan-rodrigues/caravel_vdp_lite IceStation32: https://github.com/dan-rodrigues/icestation-32  </description>
+    </item>
+    
+    <item>
       <title>OpenLANE Output Files</title>
       <link>https://www.zerotoasiccourse.com/post/openlane_output_files/</link>
       <pubDate>Fri, 16 Apr 2021 13:06:58 +0200</pubDate>

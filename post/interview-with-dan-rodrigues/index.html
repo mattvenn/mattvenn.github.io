@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Floorplan | Zero to ASIC Course</title>
+    <title>Interview With Dan Rodrigues - first shuttle, racing the beam &amp; retro gaming | Zero to ASIC Course</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="The floorplanning stage is where OpenLane decides how big an area we need to fit everything in. All the required standard cells are placed in the bottom left corner, ready for the place and route stage.
-All the little rectangles in the centre are called tap cells. They make sure the MOSFETs work correctly by connecting the P doped substrate to ground and the N-wells (that insulate the P-type MOSFETS) to power.">
+    <meta name="description" content="In this interview Dan and I talk about his submission to the first shuttle, simulating video projects, how to do graphics with no frame buffer and the joys of retro gaming.
+   Caravel repo: https://github.com/dan-rodrigues/caravel_vdp_lite IceStation32: https://github.com/dan-rodrigues/icestation-32  ">
     <meta name="generator" content="Hugo 0.83.1" />
     
     
@@ -30,23 +30,23 @@ All the little rectangles in the centre are called tap cells. They make sure the
 
     
     
-    <meta property="og:title" content="Floorplan" />
-<meta property="og:description" content="The floorplanning stage is where OpenLane decides how big an area we need to fit everything in. All the required standard cells are placed in the bottom left corner, ready for the place and route stage.
-All the little rectangles in the centre are called tap cells. They make sure the MOSFETs work correctly by connecting the P doped substrate to ground and the N-wells (that insulate the P-type MOSFETS) to power." />
+    <meta property="og:title" content="Interview With Dan Rodrigues - first shuttle, racing the beam &amp; retro gaming" />
+<meta property="og:description" content="In this interview Dan and I talk about his submission to the first shuttle, simulating video projects, how to do graphics with no frame buffer and the joys of retro gaming.
+   Caravel repo: https://github.com/dan-rodrigues/caravel_vdp_lite IceStation32: https://github.com/dan-rodrigues/icestation-32  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.zerotoasiccourse.com/terminology/floorplan/" /><meta property="article:section" content="terminology" />
-<meta property="article:published_time" content="2020-11-13T18:20:59&#43;01:00" />
-<meta property="article:modified_time" content="2020-11-13T18:20:59&#43;01:00" />
+<meta property="og:url" content="https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-05-05T16:09:22&#43;01:00" />
+<meta property="article:modified_time" content="2021-05-05T16:09:22&#43;01:00" />
 
-<meta itemprop="name" content="Floorplan">
-<meta itemprop="description" content="The floorplanning stage is where OpenLane decides how big an area we need to fit everything in. All the required standard cells are placed in the bottom left corner, ready for the place and route stage.
-All the little rectangles in the centre are called tap cells. They make sure the MOSFETs work correctly by connecting the P doped substrate to ground and the N-wells (that insulate the P-type MOSFETS) to power."><meta itemprop="datePublished" content="2020-11-13T18:20:59&#43;01:00" />
-<meta itemprop="dateModified" content="2020-11-13T18:20:59&#43;01:00" />
-<meta itemprop="wordCount" content="115">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Floorplan"/>
-<meta name="twitter:description" content="The floorplanning stage is where OpenLane decides how big an area we need to fit everything in. All the required standard cells are placed in the bottom left corner, ready for the place and route stage.
-All the little rectangles in the centre are called tap cells. They make sure the MOSFETs work correctly by connecting the P doped substrate to ground and the N-wells (that insulate the P-type MOSFETS) to power."/>
+<meta itemprop="name" content="Interview With Dan Rodrigues - first shuttle, racing the beam &amp; retro gaming">
+<meta itemprop="description" content="In this interview Dan and I talk about his submission to the first shuttle, simulating video projects, how to do graphics with no frame buffer and the joys of retro gaming.
+   Caravel repo: https://github.com/dan-rodrigues/caravel_vdp_lite IceStation32: https://github.com/dan-rodrigues/icestation-32  "><meta itemprop="datePublished" content="2021-05-05T16:09:22&#43;01:00" />
+<meta itemprop="dateModified" content="2021-05-05T16:09:22&#43;01:00" />
+<meta itemprop="wordCount" content="36">
+<meta itemprop="keywords" content="interviews," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Interview With Dan Rodrigues - first shuttle, racing the beam &amp; retro gaming"/>
+<meta name="twitter:description" content="In this interview Dan and I talk about his submission to the first shuttle, simulating video projects, how to do graphics with no frame buffer and the joys of retro gaming.
+   Caravel repo: https://github.com/dan-rodrigues/caravel_vdp_lite IceStation32: https://github.com/dan-rodrigues/icestation-32  "/>
 
       
     
@@ -61,7 +61,7 @@ All the little rectangles in the centre are called tap cells. They make sure the
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://www.zerotoasiccourse.com/floorplan.png');background-position: center;">
+  <header class="cover bg-top" style="background-image: url('https://www.zerotoasiccourse.com/dan-rodrigues.png');background-position: center;">
     <div class="pb3-m pb6-l bg-black-40">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -130,7 +130,7 @@ All the little rectangles in the centre are called tap cells. They make sure the
 
       <div class="tc-l pv1 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Floorplan</h1> 
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Interview With Dan Rodrigues - first shuttle, racing the beam &amp; retro gaming</h1> 
           
         
       </div>
@@ -146,7 +146,7 @@ All the little rectangles in the centre are called tap cells. They make sure the
     <header class="mt4 w-100">
       <aside class="instapaper_ignoref b helvetica tracked">
           
-        TERMINOLOGY
+        ARTICLES
       </aside>
       
 
@@ -156,20 +156,20 @@ All the little rectangles in the centre are called tap cells. They make sure the
   <div id="sharing" class="mt3">
 
     
-    <a href="https://www.facebook.com/sharer.php?u=https://www.zerotoasiccourse.com/terminology/floorplan/" class="facebook no-underline" aria-label="share on Facebook">
+    <a href="https://www.facebook.com/sharer.php?u=https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/" class="facebook no-underline" aria-label="share on Facebook">
       <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
 
     </a>
 
     
     
-    <a href="https://twitter.com/share?url=https://www.zerotoasiccourse.com/terminology/floorplan/&amp;text=Floorplan" class="twitter no-underline" aria-label="share on Twitter">
+    <a href="https://twitter.com/share?url=https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/&amp;text=Interview%20With%20Dan%20Rodrigues%20-%20first%20shuttle,%20racing%20the%20beam%20&amp;%20retro%20gaming" class="twitter no-underline" aria-label="share on Twitter">
       <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
 
     </a>
 
     
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.zerotoasiccourse.com/terminology/floorplan/&amp;title=Floorplan" class="linkedin no-underline" aria-label="share on LinkedIn">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/&amp;title=Interview%20With%20Dan%20Rodrigues%20-%20first%20shuttle,%20racing%20the%20beam%20&amp;%20retro%20gaming" class="linkedin no-underline" aria-label="share on LinkedIn">
       <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
 </svg>
@@ -178,20 +178,30 @@ All the little rectangles in the centre are called tap cells. They make sure the
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Floorplan</h1>
+      <h1 class="f1 athelas mt3 mb1">Interview With Dan Rodrigues - first shuttle, racing the beam &amp; retro gaming</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2020-11-13T18:20:59+01:00">November 13, 2020</time>
+      <time class="f6 mv4 dib tracked" datetime="2021-05-05T16:09:22+01:00">May 5, 2021</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The floorplanning stage is where <a href="/terminology/openlane">OpenLane</a> decides how big an area we need to fit everything in.
-All the required <a href="/terminology/standardcell">standard cells</a> are placed in the bottom left corner, ready for the <a href="/terminology/place_and_route">place and route</a> stage.</p>
-<p><img src="/floorplan.png" alt="floorplan"></p>
-<p>All the little rectangles in the centre are called tap cells. They make sure the <a href="/terminology/mosfet">MOSFETs</a> work correctly by connecting the <a href="/terminology/doping">P doped</a> <a href="/terminology/wafer">substrate</a> to ground and the N-wells (that insulate the P-type MOSFETS) to power.</p>
-<p>The slightly bigger rectangles at the edges are decoupling capacitors. After the <a href="/terminology/place_and_route">routing</a> is finished, any spare space is filled up with decoupling capacitors. The job of these capacitors is to make sure that all the cells get a nice smooth power supply.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In this interview Dan and I talk about his submission to the first shuttle, simulating video projects, how to do graphics
+with no frame buffer and the joys of retro gaming.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/EzotAjqIvWg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<ul>
+<li>Caravel repo: <a href="https://github.com/dan-rodrigues/caravel_vdp_lite">https://github.com/dan-rodrigues/caravel_vdp_lite</a></li>
+<li>IceStation32: <a href="https://github.com/dan-rodrigues/icestation-32">https://github.com/dan-rodrigues/icestation-32</a></li>
+</ul>
 <ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/interviews" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">interviews</a>
+   </li>
   
 </ul>
 <div class="mt6 instapaper_ignoref">
@@ -204,6 +214,41 @@ All the required <a href="/terminology/standardcell">standard cells</a> are plac
 
 
 
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/interview-with-thomas-parry/">Interview With Thomas Parry - Amateur satellite radio, Open Source vs Industry tools and beautiful analogue layout</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/interview-with-tim-edwards/">Interview with Tim Edwards - what happens between ASIC submission and sending to Skywater?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/interview-with-lakshmi/">Interview with Lakshmi S - PLL design</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/interview-with-diego/">Interview With Diego Hernando</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/interview-with-tnt/">Interview With Sylvain &#39;tnt&#39; Munaut: USB peripherals</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/interview-with-vladimir/">Interview With Vladimir Milovanović - spectrometer with Chisel</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/interview-with-arya/">Interview with Arya Reais-Parsi - FPGA fabric</a>
+        </li>
+	    
+    </ul>
+</div>
 
 </aside>
 

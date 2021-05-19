@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Mar 2021 15:21:28 +0100</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Interview With Dan Rodrigues - first shuttle, racing the beam &amp; retro gaming</title>
+      <link>https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/</link>
+      <pubDate>Wed, 05 May 2021 16:09:22 +0100</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/</guid>
+      <description>In this interview Dan and I talk about his submission to the first shuttle, simulating video projects, how to do graphics with no frame buffer and the joys of retro gaming.
+   Caravel repo: https://github.com/dan-rodrigues/caravel_vdp_lite IceStation32: https://github.com/dan-rodrigues/icestation-32  </description>
+    </item>
+    
+    <item>
       <title>Interview With Thomas Parry - Amateur satellite radio, Open Source vs Industry tools and beautiful analogue layout</title>
       <link>https://www.zerotoasiccourse.com/post/interview-with-thomas-parry/</link>
       <pubDate>Tue, 23 Mar 2021 16:09:22 +0100</pubDate>

@@ -1,371 +1,229 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://www.zerotoasiccourse.com/post/mpw2/</loc>
+    <lastmod>2021-05-19T13:15:24+02:00</lastmod>
+  </url><url>
+    <loc>https://www.zerotoasiccourse.com/</loc>
+    <lastmod>2021-05-19T13:15:24+02:00</lastmod>
+  </url><url>
+    <loc>https://www.zerotoasiccourse.com/post/interview-with-dan-rodrigues/</loc>
+    <lastmod>2021-05-05T16:09:22+01:00</lastmod>
+  </url><url>
+    <loc>https://www.zerotoasiccourse.com/tags/</loc>
+    <lastmod>2021-05-05T16:09:22+01:00</lastmod>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/openlane_output_files/</loc>
     <lastmod>2021-04-16T13:06:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.zerotoasiccourse.com/</loc>
-    <lastmod>2021-04-16T13:06:58+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/antenna-report/</loc>
     <lastmod>2021-03-30T12:31:35+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/</loc>
     <lastmod>2021-03-30T12:31:35+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/interview-with-thomas-parry/</loc>
     <lastmod>2021-03-23T16:09:22+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.zerotoasiccourse.com/tags/</loc>
-    <lastmod>2021-03-23T16:09:22+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/tags/interviews/</loc>
     <lastmod>2021-03-23T15:21:28+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/corner/</loc>
     <lastmod>2021-03-22T16:59:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/my_zero_to_asic_journey/</loc>
     <lastmod>2021-03-10T11:36:30+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/printing_gds/</loc>
     <lastmod>2021-02-24T16:46:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/understanding_caravel_gpio/</loc>
     <lastmod>2021-02-15T13:36:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/pdn/</loc>
     <lastmod>2021-02-07T18:59:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/last_minute_drc/</loc>
     <lastmod>2021-02-07T18:47:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/tags/updates/</loc>
     <lastmod>2021-02-07T18:47:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/tags/videos/</loc>
     <lastmod>2021-02-07T18:47:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/interview-with-tim-edwards/</loc>
     <lastmod>2021-01-10T16:08:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/pex/</loc>
     <lastmod>2021-01-07T11:41:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/interview-with-lakshmi/</loc>
     <lastmod>2021-01-05T16:08:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/interview-with-diego/</loc>
     <lastmod>2021-01-03T18:06:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/image_attribution/</loc>
     <lastmod>2021-01-01T14:57:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/asic_submitted/</loc>
     <lastmod>2020-12-23T18:07:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/interview-with-arya/</loc>
     <lastmod>2020-12-05T16:08:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/interview-with-tnt/</loc>
     <lastmod>2020-12-05T16:08:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/interview-with-vladimir/</loc>
     <lastmod>2020-12-05T16:08:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/gds-artwork/</loc>
     <lastmod>2020-11-20T17:58:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/how-much-can-we-fit/</loc>
     <lastmod>2020-11-13T20:00:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/floorplan/</loc>
     <lastmod>2020-11-13T18:20:59+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/node/</loc>
     <lastmod>2020-11-13T16:48:16+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/padring/</loc>
     <lastmod>2020-11-13T16:09:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/fpga/</loc>
     <lastmod>2020-11-13T15:42:06+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/cmos/</loc>
     <lastmod>2020-11-13T13:35:41+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/nmos/</loc>
     <lastmod>2020-11-13T13:12:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/wlcsp/</loc>
     <lastmod>2020-11-13T13:03:31+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/hdl/</loc>
     <lastmod>2020-11-13T11:58:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/simulation/</loc>
     <lastmod>2020-11-13T11:58:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/foundry/</loc>
     <lastmod>2020-11-13T11:08:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/mpw/</loc>
     <lastmod>2020-11-13T10:58:24+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/photolithography/</loc>
     <lastmod>2020-11-13T10:57:47+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/doping/</loc>
     <lastmod>2020-11-13T10:39:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/wafer/</loc>
     <lastmod>2020-11-13T10:31:47+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/die/</loc>
     <lastmod>2020-11-13T10:31:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/netlist/</loc>
     <lastmod>2020-11-13T10:13:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/vga_clock/</loc>
     <lastmod>2020-11-12T19:13:04+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/ic/</loc>
     <lastmod>2020-11-12T17:49:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/vlsi/</loc>
     <lastmod>2020-11-12T17:44:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/verification/</loc>
     <lastmod>2020-11-12T17:44:17+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/shuttle/</loc>
     <lastmod>2020-11-12T17:44:07+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/rtl/</loc>
     <lastmod>2020-11-12T17:43:56+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/lvs/</loc>
     <lastmod>2020-11-12T17:43:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/sta/</loc>
     <lastmod>2020-11-12T17:43:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/place_and_route/</loc>
     <lastmod>2020-11-12T17:43:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/synthesis/</loc>
     <lastmod>2020-11-12T17:43:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/drc/</loc>
     <lastmod>2020-11-12T17:42:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/gds2/</loc>
     <lastmod>2020-11-12T17:42:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/maskset/</loc>
     <lastmod>2020-11-12T17:42:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/tapeout/</loc>
     <lastmod>2020-11-12T17:42:16+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/openlane/</loc>
     <lastmod>2020-11-12T17:39:49+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/magic/</loc>
     <lastmod>2020-11-12T17:39:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/spice/</loc>
     <lastmod>2020-11-12T17:39:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/mosfet/</loc>
     <lastmod>2020-11-12T17:39:16+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/pdk/</loc>
     <lastmod>2020-11-12T17:38:48+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/standardcell/</loc>
     <lastmod>2020-11-12T17:38:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/asic/</loc>
     <lastmod>2020-11-12T17:38:37+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/macro/</loc>
     <lastmod>2020-11-12T17:06:52+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/terminology/harden/</loc>
     <lastmod>2020-11-12T16:52:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/multi-project-harness/</loc>
     <lastmod>2020-11-12T14:54:58+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/remoticon-talk/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/inverter/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/tags/magic/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/post/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/interviews/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/resources/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.zerotoasiccourse.com/contact/</loc>
   </url>
-  
 </urlset>
