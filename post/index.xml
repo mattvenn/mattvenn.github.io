@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Caravel Wishbone Demo</title>
+      <link>https://www.zerotoasiccourse.com/post/caravel-wishbone-demo/</link>
+      <pubDate>Wed, 19 May 2021 17:25:37 +0200</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/caravel-wishbone-demo/</guid>
+      <description>Caravel is the name of the harness provided by Efabless to make it easier to submit a design to the foundry.
+Among other things, it provides:
+ The padring 3kB of memory A small RISCV processor called PicoRV32 GPIOs A logic analyser A Wishbone bus  For the full details, check the documentation
+The simplest way to interface between your project and the PicoRV32 is probably the logic analyser. This gives you 128 ins and outs that you can use to configure or debug your design.</description>
+    </item>
+    
+    <item>
       <title>MPW2</title>
       <link>https://www.zerotoasiccourse.com/post/mpw2/</link>
       <pubDate>Wed, 19 May 2021 13:15:24 +0200</pubDate>
