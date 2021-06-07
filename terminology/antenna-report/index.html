@@ -45,7 +45,7 @@ After OpenLANE finishes, we have an antenna report in this file: ./reports/routi
 When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first. Then we use the metal layers to connect them into bigger blocks. Between layers, the wafer is often flattened. This process can induce enough electrical charge to destroy the connected gate.
 After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/41-antenna.rpt (number may change with OpenLane config)"><meta itemprop="datePublished" content="2021-03-30T12:31:35&#43;02:00" />
 <meta itemprop="dateModified" content="2021-03-30T12:31:35&#43;02:00" />
-<meta itemprop="wordCount" content="553">
+<meta itemprop="wordCount" content="571">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Antenna Report"/>
 <meta name="twitter:description" content="Antenna rules are part of the DRC.
@@ -233,6 +233,7 @@ PAR and CAR refer to Partial or Cumulative Antenna Ratio.</p>
 </ul>
 <p>If the value exceeds the ratio then it&rsquo;s a violation. This is shown by an asterix (grep &lsquo;*&rsquo; 41-antenna.rpt to find all the violations).</p>
 <p>So in the report above we can see we have an antenna violation on met1 as the PAR value of 400.02 exceeds the ratio of 400.</p>
+<h2 id="ignoring-antenna-violations">Ignoring antenna violations</h2>
 <p>On the skywater slack, Tim Edwards recently spoke about this:</p>
 <blockquote>
 <p>The general principle here is that antenna violations will give you a yield hit&mdash;that&rsquo;s something to worry about on a production run because it will affect profit margins.  But for a test chip on an MPW run, you could in principle have a yield loss as high as 10% and never notice it.  So then it comes down mostly to personal choice.  If the antenna violation is in a circuit that you think people will re-use as-is on other projects, then it would be in your best interest to knock the antenna violations down to zero.  But it is most likely that the antenna violations occur in (1) a synthesized block which would most likely be resynthesized if re-used in another project, or (2) a top level layout which would necessarily be re-done for another project.  That&rsquo;s the thinking behind my guidance.</p>
@@ -249,6 +250,8 @@ PAR and CAR refer to Partial or Cumulative Antenna Ratio.</p>
 <pre><code>DIODE_INSERTION_STRATEGY (default is 3)
 </code></pre>
 <p>You can find the definition here in the <a href="https://openlane-docs.readthedocs.io/en/rtd-develop/configuration/README.html">OpenLANE docs</a>.</p>
+<h2 id="openlane-summary-tool">OpenLANE summary tool</h2>
+<p>The <a href="/post/openlane_output_files">OpenLANE summary tools</a> can list antenna violations with the &ndash;antenna flag</p>
 <ul class="pa0">
   
 </ul>
