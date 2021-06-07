@@ -60,8 +60,7 @@ Note that newer versions of OpenLANE have started numbering the filenames so I w
       <guid>https://www.zerotoasiccourse.com/terminology/antenna-report/</guid>
       <description>Antenna rules are part of the DRC.
 When the ASIC is being built up layer by layer, we have the gates of the MOSFETS built first. Then we use the metal layers to connect them into bigger blocks. Between layers, the wafer is often flattened. This process can induce enough electrical charge to destroy the connected gate.
-After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/antenna.rpt
-The antenna report is a long collection of smaller reports like this:</description>
+After OpenLANE finishes, we have an antenna report in this file: ./reports/routing/41-antenna.rpt (number may change with OpenLane config)</description>
     </item>
     
     <item>

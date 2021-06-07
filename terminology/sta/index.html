@@ -39,7 +39,7 @@
 <meta itemprop="name" content="STA">
 <meta itemprop="description" content="Static Timing Analysis"><meta itemprop="datePublished" content="2020-11-12T17:43:21&#43;01:00" />
 <meta itemprop="dateModified" content="2020-11-12T17:43:21&#43;01:00" />
-<meta itemprop="wordCount" content="573">
+<meta itemprop="wordCount" content="645">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="STA"/>
 <meta name="twitter:description" content="Static Timing Analysis"/>
@@ -195,7 +195,7 @@ Its job is to find the fastest and slowest data paths in the design.</p>
 <p>The required timing is set in the OpenLane config file. By default its 10ns, which means we are targetting a clock frequency of 100MHz.</p>
 <h1 id="min-report---validating-hold-timing">Min report - validating hold timing</h1>
 <p>To validate hold timing, OpenSTA does a &lsquo;min&rsquo; timing analysis. Using the most optimisic timing values, how fast can new data arrive at the flip-flop after it receives a clock?</p>
-<p>This report below is extracted from reports/synthesis/opensta.min_max.rpt:</p>
+<p>The report below is extracted from reports/synthesis/2-opensta.min_max.rpt which is created right after the synthesis step.</p>
 <p>The report shows the shortest data path and sums the data arrival time (0.32ns). The data arrival time has to be more than the hold time (-0.02ns - yes hold times can be negative!). As 0.32ns &gt; -0.02ns we pass the hold requirements.</p>
 <pre><code>Startpoint: _357_ (rising edge-triggered flip-flop clocked by clk)
 Endpoint: _357_ (rising edge-triggered flip-flop clocked by clk)
@@ -266,6 +266,12 @@ Path Type: max
 ---------------------------------------------------------
            3.34   slack (MET)
 </code></pre>
+<h1 id="different-reports">Different reports</h1>
+<p>There are two calls to OpenSTA during a typical OpenLANE run:</p>
+<ul>
+<li>In the synthesis exploration loop. Here the results can be used to iterate over different synthesis options to help meet timing requirements.</li>
+<li>After extraction. This is the most accurate timing report as it is done on the finished layout. This file is called 27-opensta_spef.min_max.rpt (numbering can change depending on OpenLANE setup).</li>
+</ul>
 <ul class="pa0">
   
 </ul>
