@@ -6,7 +6,19 @@
     <description>Recent content on Zero to ASIC Course</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 May 2021 17:25:37 +0200</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 16:51:19 +0200</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MPW2 Submitted</title>
+      <link>https://www.zerotoasiccourse.com/post/mpw2-submitted/</link>
+      <pubDate>Thu, 24 Jun 2021 16:51:19 +0200</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/mpw2-submitted/</guid>
+      <description>We did it! 14 people from the course got their designs into the group submission, and the project was accepted for fabrication. Silicon here we come!
+You can get all the details on all the projects from the Efabless submission
+This time around it was a lot easier than MPW1. Part of that was because I have the whole procedure pretty much automated with the multi project tools.
+These tools can run a set of tests including:</description>
+    </item>
+    
     <item>
       <title>Caravel Wishbone Demo</title>
       <link>https://www.zerotoasiccourse.com/post/caravel-wishbone-demo/</link>
