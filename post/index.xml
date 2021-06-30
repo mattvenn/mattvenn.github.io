@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://www.zerotoasiccourse.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Livestream with Thomas Parry: analogue design with the open source ASIC tools</title>
+      <link>https://www.zerotoasiccourse.com/post/livestream-with-thomas-parry/</link>
+      <pubDate>Wed, 30 Jun 2021 13:43:25 +0200</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/post/livestream-with-thomas-parry/</guid>
+      <description>There continues to be a lot of interest about analogue design with the open source PDK.
+To cover this interest, I&amp;rsquo;ve previously interviewed:
+ Diego about his opamp, Lakshmi about her PLL and Thomas about his satellite transceiver.  One of the big changes in MPW2 was the provision of more analogue support in the form of Caravan - a new harness. This is exciting because one of the key advantages of an ASIC over an FPGA is the mixed signal capability.</description>
+    </item>
+    
+    <item>
       <title>MPW2 Submitted</title>
       <link>https://www.zerotoasiccourse.com/post/mpw2-submitted/</link>
       <pubDate>Thu, 24 Jun 2021 16:51:19 +0200</pubDate>
@@ -15,8 +26,8 @@
       <guid>https://www.zerotoasiccourse.com/post/mpw2-submitted/</guid>
       <description>We did it! 14 people from the course got their designs into the group submission, and the project was accepted for fabrication. Silicon here we come!
 You can get all the details on all the projects from the Efabless submission
-This time around it was a lot easier than MPW1. Part of that was because I have the whole procedure pretty much automated with the multi project tools.
-These tools can run a set of tests including:</description>
+Multi project tools This time around it was a lot easier than MPW1.
+Part of that was because I have the whole procedure pretty much automated with the multi project tools.</description>
     </item>
     
     <item>
@@ -39,7 +50,7 @@ The simplest way to interface between your project and the PicoRV32 is probably 
       <guid>https://www.zerotoasiccourse.com/post/mpw2/</guid>
       <description>Efabless have announced MPW2! The closing date is the 18th of June.
 The biggest changes are:
- OpenLANE ASIC flow updated to rc0.15 Caravel has become caravel_user_project at the mpw-two-c tag:  smaller repo size includes a &amp;lsquo;Caravel Lite&amp;rsquo; submodule new IRQ ports logic analyser registers renamed   The submission process has been streamlined to make it faster and easier to submit  You can browse the current applications here: https://efabless.</description>
+ OpenLANE ASIC flow updated to rc0.15 Caravel has become caravel_user_project at the mpw-two-c tag:  smaller repo size includes a &amp;lsquo;Caravel Lite&amp;rsquo; submodule new IRQ ports logic analyser registers renamed   An alternative analogue specific &amp;lsquo;Caravan&amp;rsquo; harness The submission process has been streamlined to make it faster and easier to submit  You can browse the current applications here: https://efabless.</description>
     </item>
     
     <item>

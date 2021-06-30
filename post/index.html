@@ -7,7 +7,7 @@
     <title>Articles | Zero to ASIC Course</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.84.0" />
+    <meta name="generator" content="Hugo 0.84.3" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -143,6 +143,23 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Post</span>
     <h1 class="f3 near-black">
+      <a href="https://www.zerotoasiccourse.com/post/livestream-with-thomas-parry/" class="link black dim">
+        Livestream with Thomas Parry: analogue design with the open source ASIC tools
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      There continues to be a lot of interest about analogue design with the open source PDK.
+To cover this interest, I&rsquo;ve previously interviewed:
+ Diego about his opamp, Lakshmi about her PLL and Thomas about his satellite transceiver.  One of the big changes in MPW2 was the provision of more analogue support in the form of Caravan - a new harness. This is exciting because one of the key advantages of an ASIC over an FPGA is the mixed signal capability.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Post</span>
+    <h1 class="f3 near-black">
       <a href="https://www.zerotoasiccourse.com/post/mpw2-submitted/" class="link black dim">
         MPW2 Submitted
       </a>
@@ -150,8 +167,8 @@
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       We did it! 14 people from the course got their designs into the group submission, and the project was accepted for fabrication. Silicon here we come!
 You can get all the details on all the projects from the Efabless submission
-This time around it was a lot easier than MPW1. Part of that was because I have the whole procedure pretty much automated with the multi project tools.
-These tools can run a set of tests including:
+Multi project tools This time around it was a lot easier than MPW1.
+Part of that was because I have the whole procedure pretty much automated with the multi project tools.
     </div>
   </div>
 </div>
@@ -186,7 +203,7 @@ The simplest way to interface between your project and the PicoRV32 is probably 
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       Efabless have announced MPW2! The closing date is the 18th of June.
 The biggest changes are:
- OpenLANE ASIC flow updated to rc0.15 Caravel has become caravel_user_project at the mpw-two-c tag:  smaller repo size includes a &lsquo;Caravel Lite&rsquo; submodule new IRQ ports logic analyser registers renamed   The submission process has been streamlined to make it faster and easier to submit  You can browse the current applications here: https://efabless.
+ OpenLANE ASIC flow updated to rc0.15 Caravel has become caravel_user_project at the mpw-two-c tag:  smaller repo size includes a &lsquo;Caravel Lite&rsquo; submodule new IRQ ports logic analyser registers renamed   An alternative analogue specific &lsquo;Caravan&rsquo; harness The submission process has been streamlined to make it faster and easier to submit  You can browse the current applications here: https://efabless.
     </div>
   </div>
 </div>
@@ -286,23 +303,6 @@ I want to make a poster with 3 pictures inside:
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       When I was first testing my designs inside Caravel, I was quite confused about all the GPIO options.
  Each pin has a range of options that can be configured by firmware running on the RISCV processor. Each pin can be driven from the processor or your custom design. The outputs have separate output enable lines for bi-directional signalling.  I put together an experiment where I tried the most important options and checked the results in a simulation.
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Post</span>
-    <h1 class="f3 near-black">
-      <a href="https://www.zerotoasiccourse.com/post/last_minute_drc/" class="link black dim">
-        Last minute DRC fixes
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      The story of the first Open Source ASIC shuttle continues!
-A few of the applicants to the first shuttle were recently contacted by efabless - they had discovered some DRC issues that couldn&rsquo;t be waived by the foundry.
-In my recent interview with Tim Edwards, he mentioned that Google are paying for a license of Calibre - another swiss army ASIC tool like Magic. This is to help make sure that the OpenLANE DRC hasn&rsquo;t missed anything.
     </div>
   </div>
 </div>
