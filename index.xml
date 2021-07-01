@@ -789,7 +789,7 @@ An inverter is one of the simplest and even that was quite difficult! As you can
       
       <guid>https://www.zerotoasiccourse.com/contact/</guid>
       <description>Sign up to the newsletter to keep up to date with all things Zero to ASIC and to get alerted when new tickets are released.
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}       Want to learn to make your own chips?   Design and fabricate your own ASIC! Thanks to the new Open Source Process Development Kit from Google and Skywater along with the OpenLANE ASIC tools from Efabless.</description>
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;} #mc_embed_signup .button:hover {background-color:#0A0; cursor:pointer;} #mc_embed_signup .button {font-size: 13px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: #fff; background-color: #080; box-sizing:border-box; height:32px; line-height:32px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.23s ease-in-out 0s;}       Want to learn to make your own chips?</description>
     </item>
     
   </channel>
