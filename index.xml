@@ -774,12 +774,22 @@ An inverter is one of the simplest and even that was quite difficult! As you can
     </item>
     
     <item>
+      <title>Newsletter</title>
+      <link>https://www.zerotoasiccourse.com/newsletter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.zerotoasiccourse.com/newsletter/</guid>
+      <description>Sign up to the newsletter to keep up to date with all things Zero to ASIC and to get alerted when new tickets are released.
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;} #mc_embed_signup .button:hover {background-color:#0A0; cursor:pointer;} #mc_embed_signup .button {font-size: 13px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: #fff; background-color: #080; box-sizing:border-box; height:32px; line-height:32px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.23s ease-in-out 0s;}       </description>
+    </item>
+    
+    <item>
       <title>Resources</title>
       <link>https://www.zerotoasiccourse.com/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.zerotoasiccourse.com/resources/</guid>
-      <description>My Talks  Zero to ASIC Hackaday #remoticon talk on youtube and slides Zero to ASIC emBO++ talk slides Zero to ASIC DC11332 slides  FOSSi Dialup  FOSSi foundation dialup talks Zero to ASIC course interviews on youtube Zero to ASIC course interviews podcast  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  OpenLANE &amp;amp; Documentation OpenLANE summary tool helps to explore the OpenLANE output files.</description>
+      <description>Talks, Interviews &amp;amp; Podcast  Zero to ASIC Hackaday #remoticon talk on youtube and slides Zero to ASIC emBO++ talk on youtube and slides Zero to ASIC course interviews on youtube Zero to ASIC course podcast  FOSSi Dialup  FOSSi foundation dialup talks  SkyWater/Google discussion &amp;amp; announcements  Google/SkyWater Slack PDK docs Announce mailing list  Tools  OpenLANE &amp;amp; Documentation OpenLANE summary tool helps to explore the OpenLANE output files.</description>
     </item>
     
     <item>
